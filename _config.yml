@@ -1,0 +1,40 @@
+# _config.jekyll.yaml
+# 
+# NOTE: this file should be renamed _config.yaml or _config.yml and
+#       located at the root of your jekyll project folder
+#
+# Copyright(c) 2019, polarysekt
+
+# Global Variables
+# Can be referenced with liquid via {{ site.title }}, etc
+# These will cascade through as the defaults in the absence of front matter
+
+title:          # site.title
+description:    # 
+
+# Site domain URL (http://example.com)
+# If testing locally, leave blank or use http://localhost:4000
+
+url:
+
+
+# Some standard fields
+timezone:       # ex America/Chicago
+future:	        # publish future dated posts (default=false)
+
+markdown:       # ex: kramdown
+
+plugins:	# can be a json array [ jekyll-plugin1, jekyll-plugin2 ] 
+                # or multiline (see include/exclude below)
+
+# The following are explicitly included/excluded by jekyll
+#   .dotfiles are excluded by default
+# NOTE: the whitespace is important with this type of notation
+
+include:
+  - .htaccess
+exclude:
+  - Gemfile
+  - README
+  - LICENSE
+  - CHANGELOG
