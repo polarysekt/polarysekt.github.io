@@ -1,0 +1,70 @@
+
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes shadowswitch {
+    from {
+      box-shadow: .2em .2em rgba(0,0,0,.8);
+    }
+    to {
+      box-shadow: -.2em -.2em rgba(0,0,0,.8);
+    }
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 0 black;
+      }
+  85% {
+      text-shadow: 0 0 0px black;
+      }
+  100% {
+    text-shadow: 0 0 3px yellow;
+  }
+  }
+
+  @keyframes zoomin {
+    from {
+      background-size: 100%;
+    }
+    to {
+      background-size: 125%;
+    }
+  }
+
+  @keyframes fadeheader {
+    from {
+//      background-image: url("/assets/img/header-up-0.png");
+      background-blend-mode: normal;
+    }
+    to {
+//      background-image: url("/assets/img/header-up-1.png");
+      background-blend-mode: darken;
+    }
+  }  
+
+  @keyframes zoomout {
+    from {
+      background-size: 400%;
+    }
+    to {
+      background-size: 100%;
+    }
+
+  }
+
+  @keyframes flyin {
+    from {
+      size: 300%;
+    }
+    to {
+      size: 100%;
+    }
+
+  }

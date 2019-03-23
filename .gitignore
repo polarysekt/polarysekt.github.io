@@ -1,2 +1,5 @@
-_vendor/node_modules
-
+_site
+.vendor
+.sass-cache
+.jekyll-metadata
+*~

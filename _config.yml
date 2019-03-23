@@ -1,40 +1,61 @@
-# _config.jekyll.yaml
-# 
-# NOTE: this file should be renamed _config.yaml or _config.yml and
-#       located at the root of your jekyll project folder
+# Welcome to Jekyll!
 #
-# Copyright(c) 2019, polarysekt
+# This file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. 
+# If you change this file, please restart the server process.
 
-# Global Variables
-# Can be referenced with liquid via {{ site.title }}, etc
-# These will cascade through as the defaults in the absence of front matter
+# Global Site settings, under site.<setting>
+title: the polarysektion
+description: This is the beyond bleeding edge of the polarysektion, but somehow you found it!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-title:          # site.title
-description:    # 
+owner:
+  email:            #
+  github:           polarysekt
+#  gitlab:           geoff.hadler
+#  bitbucket:        polarysekt
+  stackexchange:    4801256
+  youtube:          polarysekt
+  soundcloud:       polarysekt
 
-# Site domain URL (http://example.com)
-# If testing locally, leave blank or use http://localhost:4000
+#twitter_username: jekyllrb
+github_username:  polarysekt
 
-url:
+# Build settings
+timezone:    America/Chicago
+#future:      false  # publish future dated posts --  true, false (default) 
+highlighter: rouge
+markdown:    kramdown
+#theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-admin
+sass:
+  sass_dir: assets/css
+  style: compressed
 
+permalink: /blog/:year.:month.:day.:title
 
-# Some standard fields
-timezone:       # ex America/Chicago
-future:	        # publish future dated posts (default=false)
+collections:
+  pinned:
+    output: true
+    permalink: /:collection/:name
 
-markdown:       # ex: kramdown
-
-plugins:	# can be a json array [ jekyll-plugin1, jekyll-plugin2 ] 
-                # or multiline (see include/exclude below)
-
-# The following are explicitly included/excluded by jekyll
-#   .dotfiles are excluded by default
-# NOTE: the whitespace is important with this type of notation
-
-include:
+include: 
   - .htaccess
 exclude:
+  - .gitignore
   - Gemfile
-  - README
-  - LICENSE
-  - CHANGELOG
+  - Gemfile.lock
+  - package.json
+  - node_modules
+  - vendor
+  - _site
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,27 @@
+<footer>
+  <div class="widthConstrain">
+  <!--<a href="sitemap.xml">Site Map</a>-->
+<!--
+    {%- if pages_size > 0 -%}
+      <nav class="alignCenter">
+        [
+        {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">&nbsp;{{ my_page.title | escape }}&nbsp;</a>
+          {%- endif -%}
+        {%- endfor -%}
+        ]
+      </nav>
+    {%- endif -%}
+    -->
+  <ul class="socialfade">
+      {% include social.html %}
+  </ul>
+  <section class="copyright">
+    Copyright&copy; 2017-2019, <a href="https://polarysekt.github.io">polarysekt</a>, <a href="https://kb3c.github.io">kb3c.uX</a>
+    <br/>
+    All Rights Reserved.
+  </section>
+  </div>
+</footer>

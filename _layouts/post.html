@@ -1,0 +1,29 @@
+---
+layout: page
+
+---
+
+<article class="post-entry pageContent">
+    <section class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+<!--
+      {%- if page.author -%}
+        <h2>{{ page.author | escape }}</h2>
+      {%- endif -%}
+-->
+      <time class="date-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+      </time>
+    </section>
+  
+    <section class="post-content padContent">
+      {{ content }}
+    </section>
+  
+    {%- if site.disqus.shortname -%}
+      {%- include disqus_comments.html -%}
+    {%- endif -%}
+  
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  </article>

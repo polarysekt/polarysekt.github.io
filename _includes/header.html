@@ -1,0 +1,38 @@
+<header>
+  <div class="widthConstrain">
+      <div class="wideFlex alignMiddle">
+          {%- assign default_paths = site.pages | map: "path" -%}
+          {%- assign page_paths = site.header_pages | default: default_paths -%}
+          {%- assign pages_size = site.pages | map: 'title' | join: '' | size -%}
+          <section class="siteTitle">
+            <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+          </section>
+          <nav class="siteNav">
+            {%- if pages_size > 0 -%}
+              {%- for path in page_paths -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title -%}
+                  <a class="page-link" href="{{ my_page.url | relative_url }}">&nbsp;{{ my_page.title | escape }}&nbsp;</a>
+                {%- endif -%}
+              {%- endfor -%}
+            {% else %}
+              &nbsp;
+            {%- endif -%}
+          </nav>
+      </div>
+          <section class="pageHeader wideFlex">
+            <div class="breadCrumbs">
+              {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+      
+              <a href="/"> / </a>
+              {% for crumb in crumbs offset: 1 %}
+                {% if forloop.last %}
+                  :: {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+                {% else %}
+                  :: <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+                {% endif %}
+              {% endfor %}      
+            </div>
+          </section>
+  </div>
+</header>
