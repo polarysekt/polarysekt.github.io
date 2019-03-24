@@ -103,32 +103,44 @@ header {
 
   nav {
     color:#777;
-    font-size: 12pt;
+  }
 
+  .siteNav {
+    font-size: 16pt;    
     a {
       border-radius: 3px 3px 0 0;
-    }
+    }    
+  }
+
+  .breadCrumbs {
+
+    font-size: 18pt;
+
   }
 }
 
 main {
-  background-image:
-  linear-gradient( to bottom, rgba(255,255,255,.3), 
-    rgba(255,255,255,1) 2%, rgba(255,255,255,1) 98%, 
-    rgba(255,255,255,.3) ); 
+//  background-image:
+//  linear-gradient( to bottom, rgba(255,255,255,.3), 
+//    rgba(255,255,255,1) 2%, rgba(255,255,255,1) 98%, 
+//    rgba(255,255,255,.3) ); 
+
+  background: rgba(255,255,255,.7);
 
   article {
     background: #fff;
-    font: 12pt "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "RobotoCondensed", "Arial Narrow", "Liberation Sans Narrow", Helvetica;
     color: #000;
-
     border-radius: .25em;
+    box-shadow: 2px 2px 1em #000;
 
     h1 {
-      font-size: 20pt;
+      font-weight: bold;
+      font-size: 24pt;
     }
     h2 {
-      font-size: 18pt;
+      font-weight: bold;
+      font-size: 20pt;
     }
     h3 {
       font-size: 16pt;
@@ -140,15 +152,21 @@ main {
         font-size: 12pt;
     }
     h6 {
-        font-size: 10pt;
+      font: 10pt "Fira Code", "Liberation Sans", "Terminal", Monospace;
     }
 
     .post-entry {
-      .entry-header {
-        h1 {
-          font: 24pt bold RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica;
-          color: #000;
+      font: 12pt "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      color: #000;
+
+      .post-header {
+        font-family: "RobotoCondensed", "Arial Narrow", "Liberation Sans Narrow", Helvetica;
+        font-weight: bold;        
+        
+        .post-title {
+          font-size: 24pt;
         }
+
         h2 {
           font-size: 16pt;
           color: #333;
@@ -158,28 +176,13 @@ main {
           color: #777;
         }
       }
-      .entry-content {
-        font: 12pt "Palatino Linotype", "Book Antiqua", Palatino, serif;
-      }
+//      .entry-content {
+//        font: 12pt "Palatino Linotype", "Book Antiqua", Palatino, serif;
+//      }
     }
 
     .listing {
-      font-family: 'RobotoCondensed', 'Arial Narrow', 'Arial', 'Helvetica', 'sans-serif';
-    
-      h1 {
-        margin: 0;
-        font-size: 24pt;
-      }
-      h2 {
-        font-size: 20pt;
-      }
-      h3 {
-        font-size: 16pt;
-      }
-      h6 {
-        font-family: monospace;
-      }
-    
+      font-size: 16pt;
       ul {
         list-style: none;
         padding-left: 1em;
@@ -203,18 +206,17 @@ main {
       }
     }
 
-    .pageContent {
-      border-radius: .25em;
-      box-shadow: 2px 2px 1em #000;
-      h1 {
-        font: 24pt bold RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica;
-        color: #000;
-      }
-    }
+ //   .pageContent {
+ //     h1 {
+  //      font: 24pt bold RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica;
+ //       color: #000;
+ //     }
+ //   }
   }
 
   .social-links {
-
+    font: 14pt bold RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica;
+    
     ul {
       padding: .25em;
       list-style: none;

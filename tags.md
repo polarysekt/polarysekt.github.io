@@ -1,4 +1,5 @@
 ---
 layout: page
-permalink: tag
+title: tags
+permalink: /tags/
 ---

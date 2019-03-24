@@ -1,15 +1,13 @@
 ---
-layout: post
+layout: page
+title: links
 subtitle: Other Domains of Interest
 description: Offsite Interests
 tags: [links]
 comments: false
 permalink: /links/
-image:
-  feature: topper-archive-2.png
 ---
 
-# Links
 
 ## Pages of Note
 

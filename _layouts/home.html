@@ -5,8 +5,8 @@ layout: page
 {{ content }}
  
 {%- if site.posts.size > 0 -%}
-<article>
-<section class="listing pageContent">
+
+<section class="listing">
   <div class="wideFlex alignMiddle">
   <h1>{{ page.list_title | default: "Recent Posts" }}</h1>
   <div class="feed-subscribe"><a href="{{ "/feed.xml" | relative_url }}"><i class="fas fa fa-rss"></i> Subscribe</a></div>
@@ -25,6 +25,5 @@ layout: page
   </ul>
   
 </section>
-</article>
 {%- endif -%}
 
