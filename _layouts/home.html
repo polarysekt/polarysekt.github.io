@@ -5,6 +5,7 @@ layout: page
 {{ content }}
  
 {%- if site.posts.size > 0 -%}
+<article>
 <section class="listing pageContent">
   <div class="wideFlex alignMiddle">
   <h1>{{ page.list_title | default: "Recent Posts" }}</h1>
@@ -24,5 +25,6 @@ layout: page
   </ul>
   
 </section>
+</article>
 {%- endif -%}
 

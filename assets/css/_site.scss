@@ -3,9 +3,6 @@ a, nav, header, footer, img, ul, li, p, div, span, main {
 	animation-duration: .3s;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  margin: 0;
-}
 
 .wideFlex {
   display: flex;
@@ -54,4 +51,61 @@ h1,h2,h3,h4,h5,h6 {
 		list-style-type: none;
 		display: inline;
 	}
+}
+
+.shadowBox {
+  margin: 0 auto;
+  margin-bottom: 1em;
+  display: table;
+  padding: .25em;
+  border-radius: .2em;
+  box-shadow: .2em .2em rgba(0,0,0,.8);
+  transition-duration: 3s;
+}
+
+.shadowBox:hover {
+  animation: shadowswitch 3s alternate infinite;
+  transition-duration: 3s;
+}
+
+.nfoBox {
+  background:#ccc;
+  border-radius: .25em;
+  font: monospace, mono;
+}
+
+.error {
+  animation: fadein 1s;
+    
+  padding: 1em;
+
+  border: 1px solid #f00;
+  color: #833;
+}
+
+.clipbox {
+  overflow-x: hidden;
+  background:rgba(255,255,255,.3);
+  border-radius: 0 0 .25em .25em;
+  padding: .25em;
+}
+
+.sliderobot {
+  display: block;
+  background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;
+  animation: 7s slidehoriz cubic-bezier(.5, 0, 0, .5) alternate infinite;
+}
+
+.trickrobot {
+  background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;  
+  animation: 7s slideright cubic-bezier(.5, 0, 0, .5) infinite;
+}
+
+.trickrobot2 {
+  background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;  
+  animation: 12s left cubic-bezier(.5, 0, 0, .5) infinite;
+}
+
+.hiddenElement {
+  visibility: hidden;
 }

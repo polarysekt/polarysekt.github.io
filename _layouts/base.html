@@ -11,8 +11,14 @@
     <body>
         <div class="bodycontain">
             {% include header.html %}
-            <main class="widthConstrain">
+            <main>
                 {{ content }}
+
+                <div class="social-links">
+                    <ul>
+                        {% include social.html %}
+                    </ul>
+                </div>
             </main>
             {% include footer.html %}
         </div>
