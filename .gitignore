@@ -2,4 +2,5 @@ _site
 .vendor
 .sass-cache
 .jekyll-metadata
+.directory
 *~

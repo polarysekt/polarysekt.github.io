@@ -21,16 +21,26 @@ image:
 
 [Alpine Linux](https://alpinelinux.org)
 
+[Archlinux](https://www.archlinux.org)
+
 [Debian Linux](https://debian.org)
 
+[Fedora Linux](https://getfedora.org)
+
+[Frugal Linux](https://www.frugalware.org)
+
 [Gentoo Linux](https://gentoo.org)
+
+[OpenSUSE](https://www.opensuse.org)
 
 
 ## Editing Tools
 
-[Simple Markdown Editor](https://simplemde.com/)
+[Remarkable](https://remarkableapp.github.io)
 
-[Visual Studio Code](https://code.visualstudio.com/)
+[Simple Markdown Editor](https://simplemde.com)
+
+[Visual Studio Code](https://code.visualstudio.com)
 
 
 ##
@@ -68,4 +78,8 @@ image:
 [Typescript](http://www.typescriptlang.org/)
 
 [Webpack](https://webpack.github.io/)
+
+## Gaming
+
+[Emulation Station](https://emulationstation.org)
 

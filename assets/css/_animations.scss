@@ -68,3 +68,59 @@
     }
 
   }
+
+  @keyframes slidehoriz {
+    from {
+      margin-left: 0%;
+      background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;
+    }
+    to {
+      margin-left: 75%;
+      background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;      
+    }
+    to {
+      margin-left: 85%;
+      background: url( "/assets/img/rr_ll_fuzz.png" ) no-repeat;
+      animation: 10s slideleft cubic-bezier(1, 0, 0, 1);
+    }
+    
+  }
+
+@keyframes slideright {
+
+  from {
+    margin-left: -50%;
+    background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;    
+  }
+//  to {
+//    margin-left: 95%;
+//    background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;
+//  }
+  to {
+    margin-left: 150%;
+    background: url( "/assets/img/rr_ll_fuzz.png" ) no-repeat;  
+  }
+
+}
+
+@keyframes slideright2 {
+
+  from {
+    margin-left: -50%;
+  }
+  to {
+    margin-left: 150%;
+  }
+
+}
+
+@keyframes slideleft {
+  from {
+    margin-left: 150%;
+    background: url( "/assets/img/rr_ll_fuzz.png" ) no-repeat;
+  }
+  to {
+    margin-left: -150%;
+    background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;
+  }
+}
