@@ -124,3 +124,9 @@
     background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;
   }
 }
+
+@keyframes link-active-glow {
+  to {
+    color: #f00;
+  }
+}

@@ -1,6 +1,5 @@
 ---
 layout: post
-#title: Links
 subtitle: Other Domains of Interest
 description: Offsite Interests
 tags: [links]
@@ -9,6 +8,8 @@ permalink: /links/
 image:
   feature: topper-archive-2.png
 ---
+
+# Links
 
 ## Pages of Note
 
@@ -43,7 +44,7 @@ image:
 [Visual Studio Code](https://code.visualstudio.com)
 
 
-##
+## Source Repositories
 
 [Bitbucket](https://bitbucket.org)
 

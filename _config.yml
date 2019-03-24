@@ -5,29 +5,26 @@
 # If you change this file, please restart the server process.
 
 # Global Site settings, under site.<setting>
-title: the polarysektion
-description: This is the beyond bleeding edge of the polarysektion, but somehow you found it!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title:            "the polarysektion"
+description:      "This is the beyond bleeding edge of the polarysektion, but somehow you found it!"
+baseurl:          "" # the subpath of your site, e.g. /blog
+url:              "" # the base hostname & protocol for your site, e.g. http://example.com
 
 owner:
-  email:            #
-  github:           polarysekt
-#  gitlab:           geoff.hadler
-#  bitbucket:        polarysekt
-  stackexchange:    4801256
-  youtube:          polarysekt
-  soundcloud:       polarysekt
+  email:           #
+  github:          polarysekt
+  stackexchange:   4801256
+  youtube:         polarysekt
+  soundcloud:      polarysekt
 
-#twitter_username: jekyllrb
-github_username:  polarysekt
+github_username:    polarysekt
 
-# Build settings
-timezone:    America/Chicago
-#future:      false  # publish future dated posts --  true, false (default) 
-highlighter: rouge
-markdown:    kramdown
-#theme: minima
+
+timezone:           America/Chicago
+future:             false  # publish future dated posts --  true, false (default) 
+highlighter:        rouge
+markdown:           kramdown
+
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -38,12 +35,12 @@ sass:
   sass_dir: assets/css
   style: compressed
 
-permalink: /blog/:year.:month.:day.:title
+permalink: /blog/:title
 
 collections:
   pinned:
     output: true
-    permalink: /:collection/:name
+    permalink: /blog/:collection/:name
 
 include: 
   - .htaccess
