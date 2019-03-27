@@ -31,7 +31,7 @@ _serve_livereload:
 	@echo "SERVE a livereload instance of the server..."
 	bundle exec jekyll serve --livereload
 	
-_serve_dev:
+_serve_draft:
 	@echo "SERVE a livereload instance of the server (including drafts)..."
 	bundle exec jekyll serve --livereload --draft
 
