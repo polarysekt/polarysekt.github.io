@@ -72,15 +72,12 @@
   @keyframes slidehoriz {
     from {
       margin-left: 0%;
-      background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;
     }
     to {
       margin-left: 75%;
-      background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;      
     }
     to {
       margin-left: 85%;
-      background: url( "/assets/img/rr_ll_fuzz.png" ) no-repeat;
       animation: 10s slideleft cubic-bezier(1, 0, 0, 1);
     }
     
@@ -90,15 +87,16 @@
 
   from {
     margin-left: -50%;
-    background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;    
+    opacity: 1.0;
+    transform: rotateZ('0deg')    
   }
-//  to {
-//    margin-left: 95%;
-//    background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;
-//  }
+  to {
+    transform: rotateZ('180deg')
+  }
   to {
     margin-left: 150%;
-    background: url( "/assets/img/rr_ll_fuzz.png" ) no-repeat;  
+    opacity: 0;
+    transform: rotateZ('360deg')    
   }
 
 }
@@ -117,16 +115,23 @@
 @keyframes slideleft {
   from {
     margin-left: 150%;
-    background: url( "/assets/img/rr_ll_fuzz.png" ) no-repeat;
   }
   to {
     margin-left: -150%;
-    background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;
   }
 }
 
 @keyframes link-active-glow {
   to {
     color: #f00;
+  }
+}
+
+@keyframes sifader0 {
+  from{
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1.0;
   }
 }

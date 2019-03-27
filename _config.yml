@@ -11,7 +11,7 @@ baseurl:          "" # the subpath of your site, e.g. /blog
 url:              "" # the base hostname & protocol for your site, e.g. http://example.com
 
 owner:
-  email:           #
+  email:           "" #
   github:          polarysekt
   stackexchange:   4801256
   youtube:         polarysekt
@@ -25,11 +25,14 @@ future:             false  # publish future dated posts --  true, false (default
 highlighter:        rouge
 markdown:           kramdown
 
+#source: src
+
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
   - jekyll-feed
+  - jekyll-assets   
   - jekyll-admin
 sass:
   sass_dir: assets/css

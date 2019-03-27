@@ -1,0 +1,10 @@
+{
+  "name": "polarysekt.github.io",
+  "version": "0.4.0",
+  "description": "the polarysektion",
+  "main": "_site/index.html",
+  "repository": "https://github.com/polarysekt/polarysekt.github.io.git",
+  "author": "polarysekt",
+  "license": "NCSA",
+  "private": false
+}
