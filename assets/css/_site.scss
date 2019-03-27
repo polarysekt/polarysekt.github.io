@@ -1,8 +1,10 @@
 a, nav, header, footer, img, ul, li, p, div, span, main {
-	transition-duration: .3s;
-	animation-duration: .3s;
+  transition-duration: initial;
 }
 
+.pageContent {
+  animation: 1s sifader0;  
+}
 
 .wideFlex {
   display: flex;
