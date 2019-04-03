@@ -2,8 +2,7 @@ html, body {
   background: url("/assets/img/bg/tile/mist-darkblue.png") #000011;
 }
 
-
-html, body, h1, h2, h3, h4, h5, h6, .maincontain {
+html, body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
@@ -26,7 +25,8 @@ a:active {
 }
 
 main, .pageContent, article, footer, .post-entry {
-  padding: 1em;
+  padding: .5em;
+  padding-top: .25em;
   align-items: center;
 }
 
@@ -34,15 +34,13 @@ main, .pageContent, article, footer, .post-entry {
   align-items: center;
 }
 
-.headercontain, main, footer {
+.maincontain, .headercontain, main, footer {
   margin: 0 auto;  
   max-width: $max-content-width;
 //  height: $header-height;
 }
 
 .maincontain {
-  margin:0;
-  padding:0;
   width: 100%;
 }
 
@@ -57,6 +55,7 @@ header {
 
   background: url("/assets/img/header-up-1.png") #000;
   background-size: 100%;
+  padding: 1em;
 
 //  background-image:
 //  linear-gradient( to bottom, rgba(255,255,255,.3), 
@@ -123,10 +122,10 @@ header {
 }
 
 main {
-//  background-image:
-//  linear-gradient( to bottom, rgba(255,255,255,.3), 
-//    rgba(255,255,255,1) 2%, rgba(255,255,255,1) 98%, 
-//    rgba(255,255,255,.3) ); 
+  //background-image:
+  //linear-gradient( to bottom, rgba(0,255,255,.3), 
+  //  rgba(0,0,64,1) 7px, rgba(0,0,64,1) 99%, 
+  //  rgba(0,255,255,.3) ); 
 
 
 //  background: rgba(255,255,255,.7);

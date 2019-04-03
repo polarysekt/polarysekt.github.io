@@ -1,5 +1,5 @@
 ---
 layout: page
-title: pinned
+#title: pinned
 permalink: /pinned/
 ---
