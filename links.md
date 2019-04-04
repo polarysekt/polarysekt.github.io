@@ -1,6 +1,6 @@
 ---
 layout: page
-title: links
+#title: links
 subtitle: Other Domains of Interest
 description: Offsite Interests
 tags: [links]
