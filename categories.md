@@ -2,4 +2,3 @@
 layout: page
 permalink: /categories/
 ---
-
