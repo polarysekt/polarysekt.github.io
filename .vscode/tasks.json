@@ -10,7 +10,7 @@
             "problemMatcher": []
         },
         {
-            "label": "serve local livereload",
+            "label": "serve local livereload drafts",
             "type": "shell",
             "command": "bundle exec jekyll serve drafts  --livereload --drafts",
             "problemMatcher": []

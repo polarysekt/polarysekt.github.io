@@ -46,9 +46,10 @@ main, .pageContent, article, footer, .post-entry {
 
 header {
   overflow: hidden;
-  // position: sticky;
-  // position: -webkit-sticky;
-  // position: -moz-sticky;
+  position: sticky;
+//  position: -webkit-sticky;
+//  position: -moz-sticky;
+  top: 0;
   //position: fixed;
 
   width: 100%;
@@ -65,7 +66,7 @@ header {
   font-family: RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica, sans;
   color:#fff;
 
-  box-shadow: 0px .4em .5em rgba(0,0,0,.3);
+  box-shadow: 0px .2em .5em rgba(0,0,0,.3);
 
   a:link {
     color: #fff;
@@ -219,13 +220,13 @@ main {
   }
 
   .social-links {
-    font: 14pt bold RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica;
+    font: 20pt bold RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica;
     
     ul {
       padding: .25em;
       list-style: none;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-around;
       border-radius: .25em;
       
       li {

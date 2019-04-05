@@ -38,6 +38,15 @@ sass:
   sass_dir: assets/css
   style: compressed
 
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
+
 permalink: /blog/:title
 
 collections:
@@ -49,6 +58,7 @@ include:
   - .htaccess
 exclude:
   - .gitignore
+  - .directory
   - Gemfile
   - Gemfile.lock
   - package.json
@@ -59,3 +69,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - LICENSE.NCSA
+  - README
+  - Makefile
