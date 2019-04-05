@@ -16,15 +16,19 @@ layout: page
         <h2>{{ page.author | escape }}</h2>
       {%- endif -%}
 
-
+      {%- if page.date -%}
       <time class="date-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
-    </time> update:&nbsp;
+      </time>
+      {%- endif -%}
+      {%- if page.modified -%}
+      |&nbsp;
       <time class="date-modified" datetime="{{ page.modified | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.modified | date: date_format }}
       </time>
+      {%- endif -%}
 
 
     </div>
