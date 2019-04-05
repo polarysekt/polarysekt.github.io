@@ -8,18 +8,23 @@ image:
   feature: topper-flops-0.png
 ---
 
-## See Also:
-[[FLOPS]]
+# Flops Backronyms
+
+## See Also
+
+[FLOPS](/blog/FLOPS)
 
 ## Background
 
 **GOALS:**
+
 * 366+ unique backronyms
 * Several Recursive Backronyms
 * Custom Server Side Component/Plugin
 * FLOPS Backronym Repository
 
-**FUTURE:** 
+**FUTURE:**
+
 * Random quotes, based on grammatical syntax
 * Database (even NOSQL would suffice)
 

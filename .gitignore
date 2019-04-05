@@ -5,11 +5,10 @@ _site
 .directory
 *~
 build
-src/assets/bundle.js
 node_modules
 
 .sass-cache
 .jekyll-metadata
 assets/bundle.js
 node_modules
-.log
+*.log
