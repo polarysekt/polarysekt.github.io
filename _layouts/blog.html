@@ -14,7 +14,12 @@ layout: page
       <h2>{{ post.excerpt }}</h2>
     {%- endif -%}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    <h6>{{ post.date | date: date_format }}</h6>
+    <h6>
+      {{ post.date | date: date_format }}
+      {%- if post.modified -%}
+      &nbsp;|&nbsp;{{ post.modified | date: date_format }}
+      {%- endif -%}
+    </h6>
     </li>
     {%- endfor -%}
   </ul>

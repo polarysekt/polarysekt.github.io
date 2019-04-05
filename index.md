@@ -2,6 +2,8 @@
 layout: home
 ---
 
-# Welcome!
+# Home
+
+**Welcome!**
 
 Check out the [blog](/blog/).

@@ -10,9 +10,7 @@ image:
 
 # Flops Backronyms
 
-## See Also
-
-[FLOPS](/blog/FLOPS)
+*See Also:* [FLOPS](/blog/FLOPS)
 
 ## Background
 
