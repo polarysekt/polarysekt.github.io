@@ -59,6 +59,7 @@ include:
 exclude:
   - .gitignore
   - .directory
+  - .vscode
   - Gemfile
   - Gemfile.lock
   - package.json
@@ -69,6 +70,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - LICENSE.NCSA
+  - LICENSE
   - README
   - Makefile
