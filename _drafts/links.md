@@ -1,6 +1,6 @@
 ---
 layout: page
-#title: links
+title: links
 subtitle: Other Domains of Interest
 description: Offsite Interests
 tags: [links]
@@ -8,13 +8,13 @@ comments: false
 permalink: /links/
 ---
 
+# Links
 
 ## Pages of Note
 
 [Font Squirrel](https://www.fontsquirrel.com/)
 
 [Unsplash](https://unsplash.com/)
-
 
 ## Flavors of Linux
 
@@ -32,7 +32,6 @@ permalink: /links/
 
 [OpenSUSE](https://www.opensuse.org)
 
-
 ## Editing Tools
 
 [Remarkable](https://remarkableapp.github.io)
@@ -40,7 +39,6 @@ permalink: /links/
 [Simple Markdown Editor](https://simplemde.com)
 
 [Visual Studio Code](https://code.visualstudio.com)
-
 
 ## Source Repositories
 
@@ -81,4 +79,3 @@ permalink: /links/
 ## Gaming
 
 [Emulation Station](https://emulationstation.org)
-
