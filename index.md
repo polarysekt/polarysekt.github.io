@@ -2,7 +2,6 @@
 layout: article
 title: home
 ---
-
 # Home
 
 ## Welcome @the Polarysektion
