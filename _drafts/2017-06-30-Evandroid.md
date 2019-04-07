@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Evandroid...
-description: "Early Unpublished Draft"
+title: Evandroid
+author: Evan Lancaster
 modified: 2019-03-14
 tags: [evan, landcast, lancaster, droid, robot]
-image:
-  feature: topper-2.png
 ---
+
+# Evandroid
+
+## Prologue
 
 I'm told now that eventually this will begin to make sense, but as it is currently being salvaged from a time-travelling black box, the wreckege is only partially available.
 
@@ -22,7 +24,8 @@ Am I not real?
 
 I'm with you...
 Let's check on the StatRep
-We've got no time on our hands, Landcast;<br/>
+We've got no time on our hands, Landcast;
+
 It's all feet now.
 
 But there is no time, either, is there?
