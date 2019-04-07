@@ -17,7 +17,9 @@ layout: compress
         <div class="bodycontain">
             {% include header.html %}
             <main>
+                {% include breadcrumb.html %}
                 {{ content }}
+                {% include social.html %}
             </main>
             {% include footer.html %}
         </div>
