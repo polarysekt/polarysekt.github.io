@@ -1,13 +1,19 @@
 <header>
+    {% include menu_main.html %}
+
   <section class="siteTitle">
-      <i class="fa fa-barcode"></i>
-    <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {{ site.title | escape }}
   </section>
-  <nav class="siteNav">
+
+
+<!--   <section class="searchSite">
+&nbsp;
+  </section> -->
+<!--   <nav class="siteNav">
     {% for mainURL in site.data.nav.main %}
       <a href="{{ mainURL.url }}">
         {{ mainURL.display }}
       </a>
     {% endfor %}
-  </nav>
+  </nav> -->
 </header>

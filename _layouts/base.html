@@ -4,24 +4,22 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-    <head>
-        <meta charset="utf8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ site.title }}{%- if page.title -%} :: {{ page.title }}{%- endif -%}</title>
-        <link rel="stylesheet" href="/assets/css/style.css">
-        
-    </head>
+    {% include head.html %}
     <body>
         <div class="bodycontain">
             {% include header.html %}
             <main>
+                <a name="pskt_top"></a>
                 {% include breadcrumb.html %}
                 {{ content }}
-                {% include social.html %}
+                {% include menu_footer.html %}
             </main>
             {% include footer.html %}
         </div>
+<!--
+        <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+        <script src="{{ site.url }}/assets/js/main.js"></script>
+        <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
+-->
     </body>
 </html>
