@@ -12,7 +12,7 @@ def __init__(self):
 
 or
 
-```C++
+```c++
 void Polarysektion() {}
 ```
 
@@ -54,6 +54,6 @@ Don't stop. (Get it, Get it...)
     pass
 ```
 
-```C++
-return 0;
+```c++
+    return 0;
 ```

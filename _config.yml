@@ -22,9 +22,15 @@ github_username:    polarysekt
 
 timezone:           America/Chicago
 future:             false  # publish future dated posts --  true, false (default) 
-highlighter:        rouge
+highlighter:        coderay
 markdown:           kramdown
 
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
 #source: src
 
 plugins:
