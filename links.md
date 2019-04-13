@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: links
 subtitle: Other Domains of Interest
 description: Offsite Interests

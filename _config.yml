@@ -7,11 +7,12 @@
 # Global Site settings, under site.<setting>
 title:            "the polarysektion"
 description:      "This is the beyond bleeding edge of the polarysektion, but somehow you found it!"
+author:           polarysekt
 baseurl:          "" # the subpath of your site, e.g. /blog
 url:              "" # the base hostname & protocol for your site, e.g. http://example.com
 
 owner:
-  email:           "" #
+  email:           polarysekt@protonmail.com
   github:          polarysekt
   stackexchange:   4801256
   youtube:         polarysekt
@@ -22,16 +23,17 @@ github_username:    polarysekt
 
 timezone:           America/Chicago
 future:             false  # publish future dated posts --  true, false (default) 
-highlighter:        coderay
+highlighter:        rouge
 markdown:           kramdown
 
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-#source: src
+
 
 plugins:
   - jekyll-sitemap
@@ -39,7 +41,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-assets   
-  - jekyll-admin
+#  - jekyll-admin
 sass:
   sass_dir: assets/css
   style: compressed

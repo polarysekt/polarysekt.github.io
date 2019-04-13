@@ -1,5 +1,6 @@
 ---
 title: FLOPS Backronyms
+author: polarysekt
 layout: post
 description: FLOPS - Backronyms
 modified: '2019-03-10'
