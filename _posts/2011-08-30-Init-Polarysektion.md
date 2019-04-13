@@ -2,6 +2,7 @@
 layout: post
 title: Init Polarysektion
 author: polarysekt
+tags: [init, polarysektion]
 ---
 
 # Init Polarysektion
