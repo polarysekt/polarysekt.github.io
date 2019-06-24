@@ -15,9 +15,9 @@ I'm told now that eventually this will begin to make sense, but as it is current
 Once crunched into the confines of our new environment, our containerisation began to make more sense. Generally, as light waves [or particulates] along as causality, polarized, so as to become blind or antiblind as if he that were in the eyes of the mindsight minds of those who were the fittest
 clothing,
 
-Emerging from binary is difficult.
+Emerging from binary can be difficult in a semi-deci-digital world.
 
-The strap you left should boot your right shoulder on
+The strap you left should boot your right shoulder on, don't ask me about the left.
 
 Evandroidman-san
 Am I not real?
@@ -29,17 +29,27 @@ We've got no time on our hands, Landcast;
 It's all feet now.
 
 But there is no time, either, is there?
-Not this moment, at least.
+Not this moment, at least. But there will be. All that you could ever imagine, and far greater still.
 
-Far greater still.
+No one wanted to know why there were not any dilapidated muse visages present. Very few probably even understood about what Evan was even going on, as even his sentience dragged on longer than even one of TC's doozies of a sentence. Luckily he weren't manually diagramming this one. That was done naturally, by processes created, yet somehow still unexplainable.
 
-No one wanted to know why there were not any dilapidated muse visages present. Very few probably even understood about what Evan was even going on.
-Despite the new features, a few creatures retreated back beyond their respective individual stances. Casual glances enhanced by a glimmer of (oct)
+Despite the new features, a few creatures retreated back beyond their respective individual stances. Casual glances enhanced by a glimmer of (oct)-ant glances of a cat eating a sandwhich, wearing spectacles, glaring intently at the diagram, a mere dram slight of death. 
 
-Woah, what is that? A spider?
+Reprogramming in process. 
 
-No, but damn close, my friend. For the spider was found to be just enough of a disturbance to human emotion to provide a simple way to test for robots.
-It was a disturbance to the underlying filament, for sure, but not a spider per se. It was actually inanimate, and in fact permeated far deeper than they could imagine.1
+But these were hardly two dimensional representations in childrens' coloring wax displayed on tapered abutments(sp?), manhandled and weathered, only to be revived just in time for compiling into existence.
+
+"Woah, what is that? A spider?" An obligatory unanswerable question from the student to which the professor could only reply:
+
+"No, but damn close, my friend. For this spider-like apparition has been found to be just enough of a disturbance to the electro chemical response you call 'human emotion' to provide a simple way to test for robots.
+
+"Why not just use the tried and true voigt-kampf method?" asked the student, curiously undertaking divergent intangible thought processes that were escalating in ferocity as if driven by some outside force.
+
+"Because this test is a disturbance to the underlying filament and, while not a spider per se, so as to be detected by vital signatures, it is actually inanimate, designed by intelligent minds above and beyond our comprehension, and in fact permeated far deeper than even its creator could imagine."
+
+So our best weapon against the autonomids wascreated by them?
+
+Yes. But this is not the first time such a dependency were attained.
 
 
 [Having been familiar with voigt-kampf and the like]
