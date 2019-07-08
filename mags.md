@@ -1,5 +1,6 @@
 ---
 layout: page
 #title: pinned
-permalink: /pinned/
+permalink: /refrigerator-magnets/
 ---
+
