@@ -4,15 +4,14 @@ title: home
 ---
 # Home
 
-## Welcome @the Polarysektion
+## Welcome @the PolarYsekTioN
 
-Have a look around. 
+Have a look arounD. 
 
-Or, for more focused navigation,
+Or, for more focused NavigatioN,
 
-**Pick One (or Many [or None]):**
+**Pick ONe (or Many [or None]):**
 
-1. Read [this introductory post](/blog/Init-Polarysektion).
 1. Refer to the [Glossary](/glossary/).
 1. Check out the [BLOG](/blog/).
 1. See what this is [about](/about/).
