@@ -10,9 +10,11 @@ tags: [evan, landcast, lancaster, droid, robot]
 
 ## Prologue
 
-I'm told now that eventually this will begin to make sense, but as it is currently being salvaged from a time-travelling black box, the wreckege is only partially available.
+I'm told now that eventually this will begin to make sense, since it is currently being salvaged from a time-travelling black box, the wreckege is only partially available, luckily a wheat penny were stoed aboard the cabin such that electricity was allowed to make a habitat, and that was the beginning of .
 
-Once crunched into the confines of our new environment, our containerisation began to make more sense. Generally, as light waves [or particulates] along as causality, polarized, so as to become blind or antiblind as if he that were in the eyes of the mindsight minds of those who were the fittest
+Once crunched into the confines of our new environment, our containerisation began to make more sense. Docked and Loaded.
+
+Generally, as light, in its superposition of waves and particles tradjetted along as causality, polarized, so as to become blind or antiblind as if he that were in the eyes of the mindsight minds of those who were the fittest
 clothing,
 
 Emerging from binary can be difficult in a semi-deci-digital world.
@@ -29,52 +31,60 @@ We've got no time on our hands, Landcast;
 It's all feet now.
 
 But there is no time, either, is there?
-Not this moment, at least. But there will be. All that you could ever imagine, and far greater still.
+Not this moment, at least. But there will be. I can assure you, but I won't. There's not enough time. All that you could ever imagine, and far greater still.
 
-No one wanted to know why there were not any dilapidated muse visages present. Very few probably even understood about what Evan was even going on, as even his sentience dragged on longer than even one of TC's doozies of a sentence. Luckily he weren't manually diagramming this one. That was done naturally, by processes created, yet somehow still unexplainable.
+No one wanted to know why there were not any dilapidated muse visages present. Very few probably even understood about Evan what was even going on, and even as his sentience dragged on longer than one of Tim's doozies of a sentence, he managed. Luckily he weren't manually diagramming this one. That was done naturally, by processes created, yet somehow still unexplainable.
 
-Despite the new features, a few creatures retreated back beyond their respective individual stances. Casual glances enhanced by a glimmer of (oct)-ant glances of a cat eating a sandwhich, wearing spectacles, glaring intently at the diagram, a mere dram slight of death. 
+Despite the new features, a few creatures retreated back beyond their respective individual stances. Casual romances enhanced by a glimmer of an (oct)-ant glances of a cat eating a sandwhich, wearing spectacles, glaring intently at the diagram, a mere dram slight of death. 
 
 Reprogramming in process. 
 
-But these were hardly two dimensional representations in childrens' coloring wax displayed on tapered abutments(sp?), manhandled and weathered, only to be revived just in time for compiling into existence.
+But these were hardly two dimensional representations in childrens' colouring wax displayed on tapered abutments(sp?), womanhandled and weathered, only to be revived just in time for compiling into existence.
 
 "Woah, what is that? A spider?" An obligatory unanswerable question from the student to which the professor could only reply:
 
-"No, but damn close, my friend. For this spider-like apparition has been found to be just enough of a disturbance to the electro chemical response you call 'human emotion' to provide a simple way to test for robots.
+"Not exactly... For this spider-like apparition has been found to be just enough of a disturbance to the electro chemical response you call 'human emotion' to provide a simple way to test for robots.
 
 "Why not just use the tried and true voigt-kampf method?" asked the student, curiously undertaking divergent intangible thought processes that were escalating in ferocity as if driven by some outside force.
 
-"Because this test is a disturbance to the underlying filament and, while not a spider per se, so as to be detected by vital signatures, it is actually inanimate, designed by intelligent minds above and beyond our comprehension, and in fact permeated far deeper than even its creator could imagine."
+"Because this test is a disturbance to the underlying filament and, while not a spider per se, so as to be detected by vital signatures, it is actually quite inanimate, designed by intelligent minds above and beyond our comprehension, and in fact permeated far deeper than even its creator could imagine."
 
-So our best weapon against the autonomids wascreated by them?
+Weren't you one of the creators, sir?
 
-Yes. But this is not the first time such a dependency were attained.
+Aye, yes, but my part part was only a tiny piece to the puzzle, and it wasn't even a bordering piece.
+
+So our best weapon against the autonomids was created by an autonomid?
+
+Yes. But this is not the first time such a circular dependency were attained.
+
+[pause while some chickens fry eggs over hammies]
 
 
 [Having been familiar with voigt-kampf and the like]
 
-A young woman sat, waiting nervously as the 
+A young woman sat, waiting nervously, waiting. Anxiety soaring like a balloon, in tune with the frequency of occurrance as the repeat of offenses left no insurance policy.
 
 * * *
 
 Everyone were hero. No one man was dishonorable.
 
+She harnessed the power of the hornets' nest.
+
 * * *
 
 A Pilot Dreams
                     
-Footsteps approach from the distance, repeating in rhythmic metallic clatter that danced quickly against the walls of the long narrow hallway.
-The reverberation of thick carbon reinforced steel clanking against 
+Footsteps approach from the distance, repeating in rhythmic metallic clatter, which danced laterally against the walls of the long narrow hallway.
+The reverberation of thick carbon reinforced steel clanking against solid ground was something to be determined.
 
-through the many shadows cast
+through the many shadows cast, the bats glid 
 
-The expanse Below is devoid of any light. Could be bottomless, or just an arm's length.
-Lights, in response to the movement of [two messengers], flicker hesitantly before [opening fully],[ blanketing] the two scrawny figures in a flood of brilliantly fractaled prism reflection revealing metallic walls and floor.
+The expanse Below is devoid of any light. Could be bottomless, or just an arm's length in thrice.
+Lights, in response to the movement of [two messengers], flicker hesitantly before [opening fully],[ blanketing] the two scrawny figures in a flood of brilliantly fractaled prism reflection revealing metallic walls and floor, revealing inherent schism.
 One of the messengers stands back, allowing the other to approach the automated guard alone.
 
 "Request Entry to Area zero two gamma four, authenticate Bradley comma sigma." [uniform monotone] 
-Negative. Challengw updated. Authenticate period 3, mark 4.
+Negative. Challenge updated. Authenticate period 3, mark 4.
 
 After less than [a] half [a] millisecond, the drone groans, and lurches laterally and blows a gasket rendering him inoperable.
 
@@ -82,11 +92,11 @@ Transporters reported distress signals so four dimensional reconaissance autonom
 
 While it was difficult to comprehend, it was simply an unconscious action that lasted less time than it took.
 
-                    Reconaissance autonomoton OGH reports the following:
-                    <article class="roboReport">
-                        At 0400 hours an unconscious humanoid was observed 50 meters from FOB Alpha.
-                        The humanoid male was approximately {165lbs} and wearing an unidentified uniform.
-                        Preliminary examination determined normal respiratory function:
+Reconaissance autonomoton OGH reports the following:
+At 0400 hours an unconscious humanoid was observed 50 meters from FOB Alpha.
+The humanoid male was approximately {165lbs} and wearing an unidentified uniform.
+
+Preliminary examination determined normal respiratory function:
 
                         <table>
                             <tr>
@@ -129,27 +139,41 @@ While it was difficult to comprehend, it was simply an unconscious action that l
                 <h3>Material Intelligence Headquarters - 0700 hours</h3>
             </section>
 
-I live with the idea of a question intact.
-What would have happened when he pushed through, and finally gotten somewhere.
-The membrane was not as thick at specific points. He repeatedly tested the edges until he was certain there were not any doubts about his point of fracture. And so he did tear, straight through
-until there was no going back.
-
+I live with the idea of a question intact. In fact that same question asked back and rewound again.
+What would have happened when he pushed through, and finally gotten somewhere?
+The membrane was not as thick at specific points. He repeatedly tested the edges until he was certain there were not any doubts about his point of fracture, concision and clout, were his moments on earth. And so he did tear, straight through, one-shot until there was no going back.
 
 Are you absolutely certain we've completely allocated the proper convenience factors?
 
 Sure. Unless there were other factors to be considered.
 
+Sure isn't a yes, so let me ask again,
+Convenience factors, them, certain you are that they are completely accounted for.
+
 Well of course there were other factors.
 
-Factory stank of overworked molasses and salt. Salty molasses, simple as that, rough, uncut stubble.
+
+You're still dodging my question here. Were you or were you not aware of factors concerning convenience?
+
+Not
+
+Exactly, so let's continue, try again, and this time, maybe put a little thought in to it.
+
+
+
+
+
+[
+Factory did not stink of overworked molasses and salt, but of the fauna and flaura that utilized them for sustinence. 
+Salty molasses, simple as that, packed in stained and rough, almost sharp,like unshaved stubble.
 
 There wasn't much more that was even worth talking about.
-
 What more would one want to know?
+]
 
 
-
-
+Spiderlines on the mind
+Webtickles in the goo
 
 
 It all came down to the simple hypothesis that []
@@ -158,4 +182,6 @@ It all came down to the simple hypothesis that []
 
 the spider-like creature would sneak in and eat the host's main circuitry, replacing it with cells designed to trace back to its origin and self destruct.
 
+Apoptoids again, are they not? 
 
+No sir. There appears to be a new sort of summoner summoning forth the worthless fort from which we came and where we now report is neither here or there now.
