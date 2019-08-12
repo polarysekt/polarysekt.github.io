@@ -1,24 +1,35 @@
 .PHONY: all
 
 all:
-	echo "USAGE:\t$@ COMMAND\n\n\t\t_init_jekyll\n\n\t\t_get_jekyll\n\n\t\t_get_gems\n\n\t\t_get_all\n\n\t\t_clean\n\n\t\t_serve_simple\n\n\t\t_serve_livereload\n\n"
+	@echo "USAGE:\tmake [COMMAND]\n\n\tCOMMAND:\n\n\t\t_get_bundler\n\n\t\t_update_bundler\n\n\t\t_get_gems\n\n\t\t_clean\n\n\t\t_serve_simple\n\n\t\t_serve_livereload\n\n"
 
 
-_init_jekyll:
+_get_bundler:
+	@echo "GET 'bundler' gem..."
+	gem install bundler
+
+_update_bundler:
+	@echo "UPDATE 'bundler'..."
+	bundle update --bundler
+
+__init_bundler:
 	@echo "INIT bundler..."
 	bundle init
-	@echo "SPECIFY a local path to isolate environment"
-	@echo "  bundle will remember this environment for this folder"
+
+_get_gems:
+	@echo "SPECIFYING a local path to isolate ruby environment..."
+	@echo "USING: 'vendor/bundle'"
+	@echo "  bundle will remember this environment for this folder."
 	bundle install --path vendor/bundle/
 
 _get_jekyll:
-	@echo "GET jekyll gem"
+	@echo "GET 'jekyll' gem"
 	bundle add jekyll --path vendor/bundle/
 
 __create_new:
 	bundle exec jekyll new --force --skip-bundle .	
 
-_get_gems:
+_reget_gems:
 	@echo "CREATE a new boilerplate project..."
 	bundle install --full-index
 
@@ -38,5 +49,5 @@ _clean:
 	@echo "CLEAN generated files..."
 	bundle exec jekyll clean
 
-_get_all: _get_jekyll _get_gems
+_get_all: _get_gems
 	@echo "k."

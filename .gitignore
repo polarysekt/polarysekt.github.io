@@ -1,5 +1,5 @@
 _site
-.vendor
+vendor/bundle
 .sass-cache
 .jekyll-metadata
 .directory
@@ -12,3 +12,6 @@ node_modules
 assets/bundle.js
 node_modules
 *.log
+
+# FIX: unable to install certain versions of pkgs
+Gemfile.lock

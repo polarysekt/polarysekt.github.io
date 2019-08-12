@@ -1,3 +1,90 @@
 README
 ======
 
+# Getting Started
+
+
+## Clone
+
+Clone yourself a local copy of the repository:
+
+
+### HTTPS
+
+
+```sh
+$ git clone https://[user]@github.com/polarysekt/polarysekt.github.io
+```
+
+where [user] is your GitHub username.
+
+
+### SSH
+
+todo
+
+### GIT
+
+todo
+
+## Local Live Preview
+
+To preview the BLOG locally, you will need a few prerequisites:
+
+### Ruby Gems
+
+#### Debian
+
+```sh
+# apt install ruby-full
+```
+
+
+### bundle
+
+```sh
+# make _get_bundler
+```
+
+If you are uncomfortable running sudo prior to a make command, you can simply do:
+
+```sh
+# sudo gem install bundler
+```
+
+
+You can update bundler:
+
+```
+$ make _update_bundler
+```
+
+### Install required gems
+
+```sh
+$ make _get_gems
+```
+
+If you run into difficulties, such as a particular package not being found, try:
+
+```sh
+$ rm Gemfile.lock
+```
+
+and retry
+
+```sh
+$ make _get_gems
+```
+
+
+Now you should be able to run the server.
+
+
+### Local LiveReload Server
+
+```
+$ make _serve_livereload
+```
+
+
