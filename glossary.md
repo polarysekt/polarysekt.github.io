@@ -6,7 +6,7 @@ permalink: /glossary/
 
 # Glossary
 
-The following should be in the vernacular...
+The following 'jargon' is used frequently (and without warning), so it should be in the vernacular...
 
 ## Terms
 
