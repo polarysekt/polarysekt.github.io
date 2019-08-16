@@ -1,5 +1,12 @@
+/** _page.scss
+ *  sass for the page-specific elements
+ *
+ * Copyright(c) 2019, polarysekt, kb3c.uX
+ */
+
+// @fix: default to white if image cannot be loaded
 html, body {
-  background: url("/assets/img/bg/tile/mist-darkblue.png") #000011;
+  background: url("/assets/img/bg/tile/mist-darkblue.png") #ffffff;
 }
 
 html, body, h1, h2, h3, h4, h5, h6 {

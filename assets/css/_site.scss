@@ -1,9 +1,11 @@
+//@todo fix inline list style
+
 a, nav, header, footer, img, ul, li, p, div, span, main {
   transition-duration: initial;
 }
 
 .pageContent {
-  animation: 1s sifader0;  
+  animation: .5s sifader0;
 }
 
 .wideFlex {
@@ -28,7 +30,7 @@ a, nav, header, footer, img, ul, li, p, div, span, main {
 }
 
 .padContent {
-  padding: 1em;
+  padding: .5em;
 }
 
 
@@ -43,7 +45,7 @@ a, nav, header, footer, img, ul, li, p, div, span, main {
 	}
 }
 
-/* inline a list */
+// inline a list
 .inline-list {
 	list-style: none;
 	margin-left: 0;
