@@ -1,9 +1,29 @@
 <nav id="menu_main" role="navigation">
-	<ul>
+<!--
+<script>
+		var menuHam = document.createElement("ul");
+		var menuHamItem = document.createElement("li");
+		var menuCheckbox = document.createElement("input");
+		var labelMenuHam = document.createElement("label");
+		var itemLabelMenuHam = document.createElement("i");
+
+		menuCheckbox.type = "checkbox";
+		menuCheckbox.style  = "visibility:hidden";
+		labelMenuHam.for = menuCheckbox.id = menuCheckbox.name = "chkMenuMain";
+		itemLabelMenuHam.class = "fa fa-bars";
+
+		labelMenuHam.appendChild( itemLabelMenuHam );
+		menuHamItem.appendChild( labelMenuHam );
+		menuHamItem.appendChild( menuCheckbox );
+
+		menuHam.appendChild( menuHamItem );
+		document.menu_main.appendChild(menuHam);
+-->
+		<ul>
 		<li><input id="chkMenuMain" type="checkbox" style="visibility:hidden" name="chkMenuMain"/>
 			<label for="chkMenuMain"><i class="fa fa-bars"></i></label>
-
-{% include menu_site.html %}
+			{% include menu_site.html %}
 		</li>
 	</ul>
+	</script>
 </nav>
