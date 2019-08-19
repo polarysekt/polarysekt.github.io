@@ -10,72 +10,22 @@ permalink: /links/
 
 # Links
 
-## Pages of Note
+Right now, this is just a list. 
 
-[Font Squirrel](https://www.fontsquirrel.com/)
+If there is any interest in expansion, some commentary will be added, and will be expanded with category organized search features.
 
-[Unsplash](https://unsplash.com/)
+<table cellpadding=".25em" cellspacing="0" border="0" >
+{% for item in site.data.links.links %}
 
-## Flavors of Linux
 
-[Alpine Linux](https://alpinelinux.org)
+    <tr style="{% cycle '', 'background: #EEEEEE' %}">
+        <td style="color: #999999">{{ item.category }}</td>
+        <td style="font-weight:bold">{{ item.title }}</td>
+        <td><a href="https://{{ item.url }}">[ {{ item.url }} ]</a></td>
+        <td>{{ item.description }}</td>
+    </tr>
 
-[Archlinux](https://www.archlinux.org)
 
-[Debian Linux](https://debian.org)
+{% endfor %}
+</table>
 
-[Fedora Linux](https://getfedora.org)
-
-[Frugal Linux](https://www.frugalware.org)
-
-[Gentoo Linux](https://gentoo.org)
-
-[OpenSUSE](https://www.opensuse.org)
-
-## Editing Tools
-
-[Remarkable](https://remarkableapp.github.io)
-
-[Simple Markdown Editor](https://simplemde.com)
-
-[Visual Studio Code](https://code.visualstudio.com)
-
-## Source Repositories
-
-[Bitbucket](https://bitbucket.org)
-
-[Github](https://github.com)
-
-[Gitlab](https://gitlab.com)
-
-## Frameworks / API / Technologies
-
-[Angular](https://angular.io/)
-
-[Chai](https://www.chaijs.com/)
-
-[Docker](https://www.docker.com/)
-
-[Electron](https://electronjs.org/)
-
-[Express](https://expressjs.com/)
-
-[Grunt](https://gruntjs.com/)
-
-[Gulp](https://gulpjs.com/)
-
-[Jekyll](https://jekyllrb.com/)
-
-[Mocha](https://mochajs.org/)
-
-[Phaser](https://phaser.io)
-
-[React](https://reactjs.org/)
-
-[Typescript](http://www.typescriptlang.org/)
-
-[Webpack](https://webpack.github.io/)
-
-## Gaming
-
-[Emulation Station](https://emulationstation.org)

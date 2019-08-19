@@ -39,6 +39,11 @@ To preview the BLOG locally, you will need a few prerequisites:
 # apt install ruby-full
 ```
 
+#### Gentoo
+
+```sh
+# emerge ruby-gems
+```
 
 ### bundle
 
@@ -46,11 +51,13 @@ To preview the BLOG locally, you will need a few prerequisites:
 # make _get_bundler
 ```
 
-If you are uncomfortable running sudo prior to a make command, you can simply do:
+NOTE:   |
+--------|
+If you are uncomfortable running `sudo` prior to a `make` command, you can construct the command yourself: |
+```sh |
+# sudo gem install bundler |
+``` |
 
-```sh
-# sudo gem install bundler
-```
 
 
 You can update bundler:

@@ -1,7 +1,7 @@
 .PHONY: all
 
 all:
-	@echo "USAGE:\tmake [COMMAND]\n\n\tCOMMAND:\n\n\t\t_get_bundler\n\n\t\t_update_bundler\n\n\t\t_get_gems\n\n\t\t_clean\n\n\t\t_serve_simple\n\n\t\t_serve_livereload\n\n"
+	@echo -e "USAGE:\tmake [COMMAND]\n\n\tCOMMAND:\n\n\t\t_get_bundler\n\n\t\t_update_bundler\n\n\t\t_get_gems\n\n\t\t_clean\n\n\t\t_serve_simple\n\n\t\t_serve_livereload\n\n"
 
 
 _get_bundler:
