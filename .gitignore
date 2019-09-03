@@ -1,8 +1,9 @@
 _site
-_vendor
+vendor
 
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
 .directory
 *~
 build
@@ -15,4 +16,4 @@ node_modules
 *.log
 
 # FIX: unable to install certain versions of pkgs
-#Gemfile.lock
+Gemfile.lock

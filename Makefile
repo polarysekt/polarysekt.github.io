@@ -18,12 +18,14 @@ __init_bundler:
 
 _get_gems:
 	@echo "SPECIFYING a local path to isolate ruby environment..."
-	@echo "USING: 'vendor/bundle'"
+	@echo "USING: '_vendor/bundle'"
 	@echo "  bundle will remember this environment for this folder."
+	mkdir -p vendor/bundle	
 	bundle install --path vendor/bundle/
 
 _get_jekyll:
 	@echo "GET 'jekyll' gem"
+	mkdir -p _vendor/bundle
 	bundle add jekyll --path vendor/bundle/
 
 __create_new:
