@@ -5,10 +5,10 @@
 # If you change this file, please restart the server process.
 
 # Global Site settings, under site.<setting>
-title:            "the polarysektion"
+title:            "polarysektion"
 description:      "This is the beyond bleeding edge of the polarysektion, but somehow you found it!"
 author:           polarysekt
-baseurl:          "" # the subpath of your site, e.g. /blog
+baseurl:          "/" # the subpath of your site, e.g. /blog
 url:              "" # the base hostname & protocol for your site, e.g. http://example.com
 
 owner:

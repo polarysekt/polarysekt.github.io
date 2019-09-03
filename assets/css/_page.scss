@@ -6,7 +6,8 @@
 
 // @fix: default to white if image cannot be loaded
 html, body {
-  background: url("/assets/img/bg/tile/mist-darkblue.png") #ffffff;
+  //background: url("/assets/img/bg/tile/mist-darkblue.png") #cccccc;
+  background: #cccccc;
 }
 
 html, body, h1, h2, h3, h4, h5, h6 {
@@ -53,7 +54,7 @@ header {
   top: 0;
   width: 100%;
 
-  //padding: .25em;
+  //padding: .1em;
   background:
     linear-gradient( to bottom, rgba(0,0,127,.3), 
     rgba(0,0,127,1) 2%, rgba(0,0,127,.3) 98%, 
@@ -77,7 +78,7 @@ header {
 
   #menu_main {
     margin: 0;
-    margin-left: -1.5em;
+    margin-left: .25em;
     font-size: 16pt; 
     font-weight: bold;
     
@@ -103,7 +104,7 @@ header {
   	  position:relative;
   	  float:left;
       margin:0;
-      padding:0
+      padding:0;
       a {
         display:block;
         // font-weight:700;
@@ -186,9 +187,8 @@ header {
   }
 
   h1 {
-
     display: inline;
-    text-shadow: .1em .1em .25em #000;
+    //text-shadow: .1em .1em .25em #000;
   }
 }
 
@@ -243,17 +243,17 @@ main {
 
   article {
     background: #fff;
-    #border-radius: .5em;
+    //border-radius: .5em;
     padding: .25em;
     padding-top: .25em;
 
     font-family: "RobotoCondensed", "Arial Narrow", "Liberation Sans Narrow", Helvetica;
     color: #000;
-    #box-shadow: 2px 2px 1em #000;
+    //box-shadow: 2px 2px 1em #000;
 
     h1 {
       font-weight: bold;
-      font-size: 20pt;
+      font-size: 24pt;
     }
     h2 {
       font-weight: bold;
@@ -275,12 +275,15 @@ main {
     .post-entry {
       margin-top: 0;
       padding-top: 0;
-      font: 12pt "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      font-size: 12pt;
+//      font-family: "Liberation Serif", "Century Schoolbook", "Palatino Linotype", "Book Antiqua", Palatino, serif;
       color: #000;
       
-      h1 {
-        display: none;
-      }
+//      h1 {
+//        margin-top: 0;
+//        padding-top: 0;
+        //display: none;
+//      }
       .post-footer {
         font-family: "RobotoCondensed", "Arial Narrow", "Liberation Sans Narrow", Helvetica;
         font-weight: bold;        
@@ -410,10 +413,11 @@ footer{
     border-radius: .5em;  
   }
 
-  .copyright:hover {
-    color: #fff;
-    box-shadow: 0 0 3em #ff0;    
-  }
+  
+  //.copyright:hover {
+  //  color: #fff;
+    //box-shadow: 0 0 3em #ff0;    
+  //}
 
 }
 
