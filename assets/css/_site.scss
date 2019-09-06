@@ -8,10 +8,22 @@ a, nav, header, footer, img, ul, li, p, div, span, main {
   animation: .5s sifader0;
 }
 
+.aroundFlex {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
 .wideFlex {
   display: flex;
   justify-content: space-between;
-  flex-basis: width;
+  flex-direction: row;
+}
+
+.evenFlex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .widthConstrain {

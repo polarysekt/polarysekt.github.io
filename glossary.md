@@ -6,42 +6,36 @@ permalink: /glossary/
 
 # Glossary
 
-The following 'jargon' is used frequently (and without warning), so it should be in the vernacular...
+The following [jargon](#jargon) is used frequently (and without warning), so it should be in the [vernacular](#vernacular)...
+
 
 ## Terms
+<div>
+{% for item in site.data.glossary.terms %}
+    <a name="{{ item.term }}"></a>
+    <p>
+        <b>{{ item.term }}</b> - {{ item.meaning }}
+    </p>
+{% endfor %}
+</div>
 
-**Okkusenman** - *[Japanese]* 110 Million
+## Abbreviations
+<div>
+{% for item in site.data.glossary.abbreviations %}
+    <a name="{{ item.term }}"></a>
+    <p>
+        <b>{{ item.term }}</b> - {{ item.meaning }}
+    </p>
+{% endfor %}
+</div>
 
-**"Omoide wa Okkusenman!"** - *[Japanese - 思い出はおっくせんまん！]* 110 Million Memories!
-
-**Pentest** - Penetration Testing
-
-**Plox** - Please
-
-**Pwn** - Own
-
-**Robyte** - Approximately 8 or 10 Robits
-
-**Strats** - Strategies
-
-**Subpixel** - Any of the units that make up a pixel. Commonly Red, Green, and Blue components.
-
-**Yatta** - *[Japanese - やった]* Did it / It is done
-
-**Yattenai** - *[Japanese]* Did not do it / It is not done
 
 ## Acronyms
-
-**CTOR** - Constructor
-
-**DTOR** - Destructor
-
-**GG** - Good Game
-
-**IDE** - Integrated Development Environment
-
-**NS** - Nice Shot
-
-**NSFW** - Not Safe for Work
-
-**SFW** - Safe for Work
+<div>
+{% for item in site.data.glossary.acronyms %}
+    <a name="{{ item.term }}"></a>
+    <p>
+        <b>{{ item.term }}</b> - {{ item.meaning }}
+    </p>
+{% endfor %}
+</div>

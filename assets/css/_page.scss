@@ -278,12 +278,12 @@ main {
       font-size: 12pt;
 //      font-family: "Liberation Serif", "Century Schoolbook", "Palatino Linotype", "Book Antiqua", Palatino, serif;
       color: #000;
-      
-//      h1 {
-//        margin-top: 0;
-//        padding-top: 0;
-        //display: none;
-//      }
+
+// HIDE the title, as we rely on the breadcrumb for that.
+// Also it looks especially like shit on some pages, e.g. "home"
+      h1 {
+        display: none;
+      }
       .post-footer {
         font-family: "RobotoCondensed", "Arial Narrow", "Liberation Sans Narrow", Helvetica;
         font-weight: bold;        
@@ -353,6 +353,7 @@ main {
     padding: .25em;
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     border-radius: .25em;
     
