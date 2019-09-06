@@ -19,6 +19,7 @@ title: home
     <li>Check out the <a href="blog/">BLOG</a></li>
     <li>Refer to the <a href="glossary/">glossary</a></li>
     <li>View the ever-growing database of <a href="links/">links</a></li>
-    <li>Visit <a href="https://kb3c.github.io/">kb3c.uX</a>
+    <li>Visit <a href="https://kb3c.github.io/">kb3c.uX</a></li>
+</ol>
 </div>
 </div>
