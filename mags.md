@@ -1,6 +1,6 @@
 ---
 layout: page
-#title: pinned
+title: pinned
 permalink: /refrigerator-magnets/
 ---
 

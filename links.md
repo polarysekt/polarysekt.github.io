@@ -10,22 +10,30 @@ permalink: /links/
 
 # Links
 
-Right now, this is just a list. 
+<!--Referenced and otherwise useful links from around the web.-->
 
-If there is any interest in expansion, some commentary will be added, and will be expanded with category organized search features.
+<div>
+    {% for item in site.data.links.links %}
+    <!-- TODO: implement with classes instead of hardcoded style -->    
+    <div style="{% cycle '', 'background: #EEEEEE' %}">
+        <div class="wideFlex">
+            <!-- 
+            <div class="" >
+                {{ item.category }}
+            </div>
+            -->
+            <div class="" >
+                <h4>{{ item.title }}</h4>
+            </div>
+            <div class="" >
+                <a href="https://{{ item.url}}">{{ item.url }}</a>
+            </div>
+        </div>
+        <div class="" >
+            {{ item.description }}
+        </div>    
+    </div>
+    {% endfor %}
+</div>
 
-<table cellpadding=".25em" cellspacing="0" border="0" >
-{% for item in site.data.links.links %}
-
-
-    <tr style="{% cycle '', 'background: #EEEEEE' %}">
-        <td style="color: #999999">{{ item.category }}</td>
-        <td style="font-weight:bold">{{ item.title }}</td>
-        <td><a href="https://{{ item.url }}">[ {{ item.url }} ]</a></td>
-        <td>{{ item.description }}</td>
-    </tr>
-
-
-{% endfor %}
-</table>
 

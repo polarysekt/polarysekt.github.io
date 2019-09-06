@@ -94,4 +94,10 @@ Now you should be able to run the server.
 $ make _serve_livereload
 ```
 
+## Using VSCODE
 
+The `.vscode/tasks.json` includes scripts for running the server.
+
+* serve local livereload
+
+* serve local livereload drafts
