@@ -107,7 +107,7 @@ $ mv tsconfig.json cfg/
 The new location can be specified to `tsc` using the `--build` parameter:
 
 ```sh
-$ npm run -- --build cfg/tsconfig.json
+$ npm run tsc -- --build cfg/tsconfig.json
 ```
 
 #### Multiple Build Environments
