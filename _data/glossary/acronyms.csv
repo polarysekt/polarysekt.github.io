@@ -1,8 +1,25 @@
-term,meaning
-FOB,"Forward Operating Base"
-GG,"Good Game"
-IDE,"Integrated Development Environment"
-KS,"Kill Steal"
-NS,"Nice Shot"
-NSFW,"Not Safe For Work"
-SFW,"Safe For Work"
+term,meaning,see,meaning2,"refer to"
+ASAP,"As Soon As Possible",,,
+ASAMFP,"See ASAP",,,
+.d,directory,,,
+DK,"Double Kill",,,
+FOB,"Forward Operating Base",,,GG
+FX,Effects,,,
+GIF,"Graphics Interchange Format",,,
+GG,"Good Game",,,
+IDE,"Integrated Development Environment",,,
+IMHO,"In My (Humble) Opinion",,,
+KS,"Kill Steal",,,
+LMK,"Let me know",,,
+LZ,"Landing Zone",,,GG
+JPEG,"Joint Picture Editors Group",,,
+JPG,"Joint Picture (Editors) Group",JPEG,,
+NS,"Nice Shot",,,
+NSFW,"Not Safe For Work",,,
+PTM,"Your Mother Nightwalker",,,
+rc,RunCom,,,
+RTFM,"Read The Manual",,,
+SFW,"Safe For Work",,,
+SFX,"Sound Effects",FX,,
+TK,Toolkit,,"Triple Kill",DEV
+TL/DR;,"Too Long / Did not Read",,,

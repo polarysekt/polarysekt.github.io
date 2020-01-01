@@ -1,5 +1,6 @@
 term,meaning
 CTOR,Constructor
 DTOR,Destructor
+DEV,"Developer/Development (based on context)"
 pentest,"Penetration Test"
 strat,Strategy

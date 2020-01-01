@@ -68,6 +68,10 @@ exclude:
   - .gitignore
   - .directory
   - .vscode
+  - package.json
+  - package-lock.json
+  - yarn.json
+  - build/
   - Gemfile
   - Gemfile.lock
   - package.json
