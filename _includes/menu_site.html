@@ -1,8 +1,5 @@
-<!-- TODO: load this from CSV -->
-
 <ul id="menu_site" class="submenu">
         <li><a href="{{ site.url }}/">home</a></li>
-        <!-- <li><a href="{{ site.url }}/news/">news</a></li> -->
         <li>
             <a href="{{ site.url }}/articles/">articles</a>
             <ul>
@@ -11,20 +8,11 @@
                 <li><a href="{{ site.url }}/articles/tags/">tags</a></li>
             </ul>
         </li>
-        <!-- {% for link in site.nav.main %}
-        {% if link.url contains 'http' %}
-            {% assign domain = '' %}
-            {% else %}
-            {% assign domain = site.url %}
-        {% endif %}
-        <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-        {% endfor %} -->
         <li><a href="{{ site.url }}/glossary/">glossary</a></li>
         <li><a href="{{ site.url }}/links/">links</a>
             <ul>
                 <li><a href="https://kb3c.github.io">kb3c.uX</a></li>
             </ul>
         </li>
-        <!-- <hr/> -->
         <li><a href="{{ site.url }}/about/">about</a></li>
 </ul>

@@ -10,7 +10,6 @@ permalink: /links/
 
 # Links
 
-<!--Referenced and otherwise useful links from around the web.-->
 
 <div>
     {% for item in site.data.links.links %}
