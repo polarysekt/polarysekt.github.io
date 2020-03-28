@@ -5,6 +5,8 @@ subtitle: important enough to keep here
 description: ideally, these appear near the top of the listings
 tags: [pin magnet star]
 comments: none
-permalink: /article/pinned/
+permalink: /articles/pinned/
 ---
+
+Empty.
 

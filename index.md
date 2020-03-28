@@ -15,7 +15,8 @@ comments: false
 
 
     <div class="nfoBox padContent">
-        <h3>What's New</h3>
+        <h3>Empty Box</h3>
+	</div>
 
 <!--
 	<ol>
