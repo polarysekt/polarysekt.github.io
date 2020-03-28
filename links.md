@@ -35,5 +35,3 @@ permalink: /links/
     </div>
     {% endfor %}
 </div>
-
-

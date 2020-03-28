@@ -2,19 +2,14 @@
 layout: post
 title: home
 ---
-# Home
 
 <div class="evenFlex">
 
     <div class="padContent">
-        <h3>Welcome!</h3>
-        <p>"We're glad you made it 'till today!"</p>
-        <p>
-        In general, the 'BLOG' is more of a collection of technical notes and reference
-        than a casual read.
-        </p>
+        <p>"Glad you made it 'till today!"</p>
     </div>
 
+<!--
     <div class="nfoBox padContent">
         <h3>Overview</h3>
 
@@ -26,4 +21,5 @@ title: home
         <li>Visit <a href="https://kb3c.github.io/">kb3c.uX</a></li>
     </ol>
     </div>
+-->
 </div>

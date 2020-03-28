@@ -1,10 +1,12 @@
-# Welcome to Jekyll!
-#
+# _config.yml
+# global site settings
+# 2020, polarysekt, kb3c.uX
+##
+# NOTE:
 # This file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. 
 # If you change this file, please restart the server process.
 
-# Global Site settings, under site.<setting>
 title:            "polarysektion"
 description:      "This is the beyond bleeding edge of the polarysektion, but somehow you found it!"
 author:           polarysekt

@@ -1,6 +1,8 @@
 term,meaning
+BOOTP,Bootstrap
 CTOR,Constructor
 DTOR,Destructor
 DEV,"Developer/Development (based on context)"
 pentest,"Penetration Test"
+RunCom,"Run Command"
 strat,Strategy

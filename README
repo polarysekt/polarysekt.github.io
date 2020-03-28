@@ -101,3 +101,16 @@ The `.vscode/tasks.json` includes scripts for running the server.
 * serve local livereload
 
 * serve local livereload drafts
+
+# Troubleshooting
+
+## jekyll not found
+
+If you get an error such as `jekyll not found` when trying to run server:
+
+```
+bundler: command not found: jekyll
+Install missing gem executables with `bundle install`
+make: *** [Makefile:44: _serve_livereload] Error 127
+```
+
