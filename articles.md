@@ -1,7 +1,11 @@
 ---
 layout: article
-title: blog
-permalink: /blog/
+title: articles
+subtitle: Index of Articles
+description: this is the unabridged list
+tags: [article]
+comments: none
+permalink: /articles/
 ---
 
 {%- if site.posts.size > 0 -%}

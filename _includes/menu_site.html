@@ -1,13 +1,14 @@
+<!-- TODO: load this from CSV -->
+
 <ul id="menu_site" class="submenu">
         <li><a href="{{ site.url }}/">home</a></li>
         <!-- <li><a href="{{ site.url }}/news/">news</a></li> -->
         <li>
-            <a href="{{ site.url }}/blog/">blog</a>
+            <a href="{{ site.url }}/articles/">articles</a>
             <ul>
-                <li><a href="{{ site.url }}/blog/">posts</a></li>
-                <!-- <li><a href="{{ site.url }}/pinned/">pinned</a></li> -->						
-                <li><a href="{{ site.url }}/tags/">tags</a></li>
-                <!-- <li><a href="{{ site.url }}/cats/">categories</a></li> -->
+                <li><a href="{{ site.url }}/articles/pinned">pinned</a></li>
+				<li><a href="{{ site.url }}/articles/categories/">categories</a></li>						
+                <li><a href="{{ site.url }}/articles/tags/">tags</a></li>
             </ul>
         </li>
         <!-- {% for link in site.nav.main %}
@@ -26,4 +27,4 @@
         </li>
         <!-- <hr/> -->
         <li><a href="{{ site.url }}/about/">about</a></li>
-    </ul>
+</ul>

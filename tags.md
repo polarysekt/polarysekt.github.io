@@ -1,7 +1,11 @@
 ---
 layout: article
 title: tags
-permalink: /tags/
+subtitle: many to few, and mostly redundant
+description: these are supposed to help with organization
+tags: [tags, topics]
+comments: false
+permalink: /articles/tags/
 ---
 
 {% for tag in site.tags %}

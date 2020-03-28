@@ -1,6 +1,10 @@
 ---
 layout: post
 title: glossary
+subtitle: A straight list of terms
+description: A relatively terse, almost unmanageable list
+tags: [glossary, jargon, vernacular]
+comments: false
 permalink: /glossary/
 ---
 

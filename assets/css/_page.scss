@@ -56,13 +56,13 @@ header {
 
   //padding: .1em;
   background:
-    linear-gradient( to bottom, rgba(0,0,127,.3), 
-    rgba(0,0,127,1) 2%, rgba(0,0,127,.3) 98%, 
-    rgba(0,0,127,.3) ) #000011;   
+    linear-gradient( to bottom, rgba(0,0,64,.3), 
+    rgba(0,0,64,1) 2%, rgba(0,0,64,.3) 98%, 
+    rgba(0,0,64,.3) ) #000011;   
 
   font-family: RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica, sans;
   color:#fff;
-  box-shadow: 0px .2em .5em rgba(0,0,0,.7);
+  box-shadow: 0px .2em .2em rgba(0,0,0,.7);
 
   display: flex;
   align-items: flex-start;
@@ -73,7 +73,7 @@ header {
     margin-left: .5em;
     font-size: 16pt;
     font-weight: bold;
-    text-shadow: 0 0 1em #000;
+	text-shadow: 0 0 .5em rgba(0,0,0,.7);
   }
 
   #menu_main {
@@ -121,9 +121,9 @@ header {
       li:hover
       {
         background:
-        linear-gradient( to bottom, rgba(0,0,192,.3), 
-        rgba(0,0,192,1) 2%, rgba(0,0,192, 1) 98%, 
-        rgba(0,0,192,.3) ) #0000CC;
+        linear-gradient( to bottom, rgba(0,0,127,.3), 
+        rgba(0,0,127,1) 2%, rgba(0,0,127, 1) 98%, 
+        rgba(0,0,127,.3) ) #000099;
       }
       li:hover > ul
       {
@@ -136,11 +136,11 @@ header {
         top:100%;
         left:0;
         background:
-        linear-gradient( to bottom, rgba(0,0,127,.3), 
-        rgba(0,0,127,1) 2%, rgba(0,0,127,.3) 98%, 
-        rgba(0,0,127,.3) ) #000011;
+        linear-gradient( to bottom, rgba(0,0,96,.3), 
+        rgba(0,0,96,1) 2%, rgba(0,0,96,.3) 98%, 
+        rgba(0,0,96,.3) ) #000011;
         padding:0;
-        box-shadow: 0 0 .5em rgba(0,0,0,.7);
+        box-shadow: 0 0 .25em rgba(0,0,0,.7);
         //border-radius: 0 0 .25em .25em;
         a {
           line-height:120%;
@@ -181,7 +181,7 @@ header {
 .breadCrumbs {
   margin: 0;
   padding-left: .25em;
-  font: 12pt "RobotoCondensed", "Liberation Sans Narrow", "Arial Narrow", "Helvetica Narrow", sans;
+  font: 12pt "Liberation Sans Narrow", "Arial Narrow", "Helvetica Narrow", "Arial", "Helvetica", sans;
   a:link {
     font-weight: bold;
   }
@@ -195,7 +195,7 @@ header {
 #menu_footer {
   display: flex;
   justify-content: center;
-  font: 12pt "RobotoCondensed", "Liberation Sans Narrow", "Arial Narrow", "Helvetica Narrow", sans;
+  font: 12pt "Liberation Sans Narrow", "Arial Narrow", "Helvetica Narrow", "Arial", "Helvetica", sans;
   a:link {
     font-weight: bold;
   }
@@ -247,7 +247,7 @@ main {
     padding: .25em;
     padding-top: .25em;
 
-    font-family: "RobotoCondensed", "Arial Narrow", "Liberation Sans Narrow", Helvetica;
+	font-family: "Century Schoolbook", "Palatino Linotype", "Liberation Serif", "Times New Roman", serif;
     color: #000;
     //box-shadow: 2px 2px 1em #000;
 
@@ -269,7 +269,7 @@ main {
         font-size: 12pt;
     }
     h6 {
-      font: 10pt "Fira Code", "Liberation Sans", "Terminal", Monospace;
+      font: 10pt "Fira Code", "Liberation Sans Mono", "Terminal", Monospace;
     }
 
     .post-entry {
@@ -285,7 +285,7 @@ main {
         display: none;
       }
       .post-footer {
-        font-family: "RobotoCondensed", "Arial Narrow", "Liberation Sans Narrow", Helvetica;
+        font-family: "RobotoCondensed", "Arial Narrow", "Liberation Sans Narrow", Helvetica, serif;
         font-weight: bold;        
         
         h1 {

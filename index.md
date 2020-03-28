@@ -1,6 +1,10 @@
 ---
 layout: post
 title: home
+subtitle: the landing zone
+description: this is where we put you when there's no other option
+tags: [home, landing, lz, start]
+comments: false
 ---
 
 <div class="evenFlex">
@@ -9,11 +13,12 @@ title: home
         <p>"Glad you made it 'till today!"</p>
     </div>
 
-<!--
-    <div class="nfoBox padContent">
-        <h3>Overview</h3>
 
-    <ol>
+    <div class="nfoBox padContent">
+        <h3>What's New</h3>
+
+<!--
+	<ol>
         <li>See what this is <a href="about/">about</a></li>
         <li>Check out the <a href="blog/">BLOG</a></li>
         <li>Refer to the <a href="glossary/">glossary</a></li>

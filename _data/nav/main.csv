@@ -1,4 +1,6 @@
 display,url
-blog,/blog/
+home,/home/
+blog,/articles/
 glossary,/glossary/
+links,/links/
 about,/about/
