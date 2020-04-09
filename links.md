@@ -22,6 +22,9 @@ permalink: /links/
             </div>
             -->
             <div class="" >
+                <img src="https://{{ item.url }}/favicon.ico" alt="favicon"\>
+            </div>
+            <div class="" >
                 <h4>{{ item.title }}</h4>
             </div>
             <div class="" >
