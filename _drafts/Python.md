@@ -123,7 +123,6 @@ Heroku is a good place to start because it's easy to get up and running without 
 
 It also doesn't hurt that it provides free services to try out before dedicating to a solution.
 
-
 ## Appendix
 
 ### Commandline Syntax

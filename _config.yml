@@ -49,8 +49,7 @@ plugins:
   - jekyll-assets
 #  - jekyll-admin
 
-# TODO: scss?
-sass:
+sassc:
   sass_dir: assets/css
   style: compressed
 
@@ -66,10 +65,15 @@ compress_html:
 # The default permalink for articles
 permalink: /article/:title
 
+#collections_dir: 
+
 collections:
-  pinned:
+  reference:
     output: true
-    permalink: /article/:collection/:name
+    permalink: /reference/:name
+#  pinned:
+#    output: true
+#    permalink: /article/:collection/:name
 
 # What to include/exclude from parsing
 include: 
