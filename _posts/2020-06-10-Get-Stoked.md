@@ -7,6 +7,10 @@ tags: [stock, market, stash, robinhood]
 
 # Get Stoked
 
+This is a work in progress.
+
+However some of the notes may be already useful, so instead of putting it in drafts, we put it here.
+
 ## Do Research
 
 Before jumping in to the market, it is probably a good idea to at least familiarize yourself with the basics of stock trading.
