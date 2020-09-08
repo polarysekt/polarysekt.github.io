@@ -1,5 +1,5 @@
 <nav class="breadCrumbs">
-	<div name="bc_spacer" style="margin-left: 1em; display:inline;">&nbsp;</div>
+
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
     <a href="/">
     <i class="fa fa-home"></i>
@@ -11,5 +11,5 @@
         :: <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' }}</a>
       {% endif %}
     {% endfor %}
-    <div name="bc_spacer" style="margin-left: 1em; display:inline;">&nbsp;</div>    
+
 </nav>

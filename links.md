@@ -8,32 +8,15 @@ comments: false
 permalink: /links/
 ---
 
-# Links
+{% for item in site.data.links.links %}
+![](https://{{ item.url }}/favicon.ico)
+
+{{ item.title }}
+
+[https://{{ item.url}}]({{ item.url }})
+
+{{ item.description }}
 
 
-<div>
-    {% for item in site.data.links.links %}
-    <!-- TODO: implement with classes instead of hardcoded style -->    
-    <div style="{% cycle '', 'background: #EEEEEE' %}">
-        <div class="wideFlex">
-            <!-- 
-            <div class="" >
-                {{ item.category }}
-            </div>
-            -->
-            <div class="" >
-                <img src="https://{{ item.url }}/favicon.ico" alt="favicon"\>
-            </div>
-            <div class="" >
-                <h4>{{ item.title }}</h4>
-            </div>
-            <div class="" >
-                <a href="https://{{ item.url}}">{{ item.url }}</a>
-            </div>
-        </div>
-        <div class="" >
-            {{ item.description }}
-        </div>    
-    </div>
-    {% endfor %}
-</div>
+
+{% endfor %}
