@@ -49,7 +49,7 @@ plugins:
   - jekyll-assets
 #  - jekyll-admin
 
-sassc:
+sass:
   sass_dir: assets/css
   style: compressed
 
@@ -63,7 +63,7 @@ compress_html:
     envs: []
 
 # The default permalink for articles
-permalink: /article/:title
+permalink: /articles/:title
 
 #collections_dir: 
 

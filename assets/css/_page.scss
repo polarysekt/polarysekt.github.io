@@ -4,15 +4,23 @@
  * Copyright(c) 2019, polarysekt, kb3c.uX
  */
 
-// @fix: default to white if image cannot be loaded
 html, body {
-  //background: url("/assets/img/bg/tile/mist-darkblue.png") #cccccc;
-  background: #cccccc;
+  background: url("/assets/img/bg/tile/mist-darkblue.png") $body-color;
+  color: $text-color;
 }
 
 html, body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+}
+
+
+a:link {
+  color: $link-color;
+}
+
+a:visited {
+  color: $visited-color;
 }
 
 a:link, a:visited {
@@ -181,12 +189,12 @@ header {
 .breadCrumbs {
   margin: 0;
   padding-left: .25em;
-  font: 12pt "Liberation Sans Narrow", "Arial Narrow", "Helvetica Narrow", "Arial", "Helvetica", sans;
+  font: 14pt "Liberation Sans Narrow", "Arial Narrow", "Helvetica Narrow", "Arial", "Helvetica", sans;
   a:link {
     font-weight: bold;
   }
 
-  h1 {
+  h1,h2 {
     display: inline;
     //text-shadow: .1em .1em .25em #000;
   }
@@ -235,21 +243,22 @@ header {
 }
 
 main {
-  background: rgba(255,255,255,.8);
-  background-image:
-    linear-gradient( to bottom, rgba(255,255,255,0), 
-    rgba(255,255,255,.8) 1%, rgba(255,255,255,.8) 99%, 
-    rgba(255,255,255,0) ); 
-
+  background: $border-color;
+//  background-image:
+ //   linear-gradient( to bottom, rgba(255,255,255,0), 
+  //  rgba(255,255,255,.8) 1%, rgba(255,255,255,.8) 99%, 
+    //rgba(255,255,255,0) ); 
+    ///color: $text-color;
   article {
-    background: #fff;
+    background: $comp-color;
     //border-radius: .5em;
     padding: .25em;
     padding-top: .25em;
 
 	font-family: "Century Schoolbook", "Palatino Linotype", "Liberation Serif", "Times New Roman", serif;
-    color: #000;
+    color:$text-color;
     //box-shadow: 2px 2px 1em #000;
+    font-size: $doc-font-size;
 
     h1 {
       font-weight: bold;
@@ -275,9 +284,9 @@ main {
     .post-entry {
       margin-top: 0;
       padding-top: 0;
-      font-size: 12pt;
+      font-size:$doc-font-size;
 //      font-family: "Liberation Serif", "Century Schoolbook", "Palatino Linotype", "Book Antiqua", Palatino, serif;
-      color: #000;
+      color: $text-color;
 
 // HIDE the title, as we rely on the breadcrumb for that.
 // Also it looks especially like shit on some pages, e.g. "home"
@@ -296,11 +305,11 @@ main {
 
         h2 {
           font-size: 16pt;
-          color: #333;
+          color: $text-color;
         }
         time {
           font: 10pt "Fira Code", "Liberation Sans", "Terminal", Monospace;
-          color: #777;
+          color: $stamp-color;
         }
       }
      .post-content {
