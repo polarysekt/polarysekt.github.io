@@ -5,7 +5,7 @@ subtitle: Other Domains of Interest
 description: Offsite Interests
 tags: [links]
 comments: false
-permalink: /links/
+permalink: /reference/links/
 ---
 
 {% for item in site.data.links.links %}

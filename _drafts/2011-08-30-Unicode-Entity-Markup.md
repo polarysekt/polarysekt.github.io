@@ -6,17 +6,32 @@ author: polarysekt
 
 # Unicode Entity Markup
 
-NOTE: this post is still being revised (8 years later...). Originally written from a `C/C++` programmer perspective.
+Entity implementation differences.
 
 ## Programatically with Javascript
 
-*TODO:: Javascript version*
+This implementation relies on a runnning version of node. For more information about nodejs, see [node](node)
+
+1. Create Project Folder:   'htmlegen'
+1. Initialize project:
+For npm users, the command `npm init` kickstarts the project package management system.
+1. Create Source File:      'src/htmlegen.js'
+1. Create
+
+```javascript
+``
+
+*TODO::
+
+```
 
 ## Programatically with C++
 
-*Instead of hand-coding an HTML entities reference document, let's hand code an app to generate it.*
 
-1. Create Project Folder:  "html-entity-gen"
+
+*Instead of hand-typing an HTML entities reference document, let's hand code an app to generate it.*
+
+1. Create Project Folder:  'htmlegen'
 1. Create Source File:    "./src/main.cpp"
 
 **main.cpp:**
@@ -49,10 +64,11 @@ int main ( ) {
 }
 ```
 
-To simplify things, we'll stream all the HTML to stdout (<em>usually</em> the console...)
+To simplify things, we'll stream all the HTML to stdout (<em>usually</em> directed at the console...)
 
 **Compile Source File:**
-Generally I use a `makefile`, and some standard paths, but here's a simple way:
+
+Generally I use a `makefile`, but here's a simple way:
 
 ```sh
 $  g++ -O2 -Wall -o html-entity-gen src/main.cpp
@@ -85,17 +101,9 @@ $  html-entity-gen > "html-entity.html"
 
 Then just use your preferred browser to open:
 
-*TODO:: use x11 default:*
-```sh
-$  !!! html-entity.html
-```
 
-```sh
-$  chromium html-entity.html
-```
-
-```sh
-$  firefox html-entity.html
+```bash
+$  x-www-browser html-entity.html
 ```
 
 Enjoy!
@@ -114,7 +122,9 @@ Enjoy!
 
 Code `./src/main.cpp` as above.
 
-### A legit makefile
+### A somewhat legit makefile
+
+In general, it may be preferable to use a build system such as Automake or CMake.
 
 The following lines from the makefile (in bold) enumerate the .cpp source files:
 
@@ -124,7 +134,7 @@ PATHBUILD     = build/
 PATHOBJ       = build/obj/
 PATHBIN       = build/bin/
 
-CXXCORESRC := $(wildcard $(PATHSRC)*.cpp) 
+CXXCORESRC := $(wildcard $(PATHSRC)*.cpp)
 COREOBJ    := $(patsubst $(PATHSRC)%.cpp,$(PATHOBJ)%.o,$(CXXCORESRC))
 ```
 
@@ -156,15 +166,6 @@ $(BINTARGET): ${COREOBJ}
     $(CXX) $(CXXFLAGS) $(LDFLAGS) -o $(BINTARGET) $^ $(LIBS)
 ```
 
-First iteration of a *REALLY EASY & CHEAP* build counter.
-
-```makefile
-BUILDLOG    = $(PATHBUILD)buildLOG
-
-@echo -n "X" >> $(BUILDLOG);
-@echo -n "Build Count: ";
-@stat -c%s $(BUILDLOG);
-```
 
 Basically we're outputting a single character ("X") to a file. The size of the file (for single-byte character encoding) is the build count. (When it finally comes time that character encoding is an issue, we'll revisit -- but for now... let's encode some HTML...)
 
@@ -174,15 +175,5 @@ Now -- make it a command...
 
 ### Installation
 
-The installation can be automated in the `makefile` as well:
-
-```makefile
-    USRBIN        = /usr/bin/
-    INSTALLTO    = $(USRBIN)$(APP_NAME).version/
-
-    @mkdir -p $(INSTALLTO)
-    @cp $(BINTARGET) $(INSTALLTO)
-    @ln -sf -T $(INSTALLTO)$(BINFULLV) $(USRBIN)$(BINFULL)
-    @chmod 755 $(USRBIN)$(BINFULL)
 ```
 

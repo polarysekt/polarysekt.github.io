@@ -8,8 +8,8 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-gist"
   gem "jekyll-assets"
-#  gem "jekyll-kramdown"
-#  gem "jekyll-rouge"
+  gem "kramdown-syntax-coderay"
+#  gem "jekyll-coderay"
 #  gem "jekyll-admin"
 end
 

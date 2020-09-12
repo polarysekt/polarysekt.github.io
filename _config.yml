@@ -5,7 +5,7 @@
 ##
 # NOTE:
 # This file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. 
+# 'bundle exec jekyll serve'.
 # If you change this file, please restart the server process.
 
 title:            "polarysektion"
@@ -25,7 +25,7 @@ github_username:    polarysekt
 
 
 timezone:           America/Chicago
-future:             false           # publish future dated posts --  true, false (default) 
+future:             false           # publish future dated posts --  true, false (default)
 
 
 # Syntax Highlighting
@@ -65,7 +65,7 @@ compress_html:
 # The default permalink for articles
 permalink: /articles/:title
 
-#collections_dir: 
+#collections_dir:
 
 collections:
   reference:
@@ -76,7 +76,7 @@ collections:
 #    permalink: /article/:collection/:name
 
 # What to include/exclude from parsing
-include: 
+include:
   - .htaccess
 exclude:
   - .gitignore

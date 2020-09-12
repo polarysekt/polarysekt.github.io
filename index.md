@@ -8,13 +8,12 @@ comments: false
 ---
 
 <div class="evenFlex">
-
     <div class="padContent">
-        <p>"Glad you made it 'till today!"</p>
+        <p>"Glad you made it 'till today."</p>
     </div>
 
     <div class="nfoBox padContent">
         <h3>Empty Box</h3>
-	</div>
-
+        You should not be thinking only in here.
+    </div>
 </div>
