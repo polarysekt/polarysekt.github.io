@@ -99,9 +99,9 @@ a, nav, header, footer, img, ul, li, p, div, span, main {
 
 .clipbox {
   overflow-x: hidden;
-  background:rgba(255,255,255,.3);
-  border-radius: 0 0 .25em .25em;
-  padding: .25em;
+//background:rgba(255,255,255,.3);
+//border-radius: 0 0 .25em .25em;
+//  padding: .25em;
 }
 
 .sliderobot {
@@ -112,8 +112,19 @@ a, nav, header, footer, img, ul, li, p, div, span, main {
 
 .trickrobot {
   background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;  
-  animation: 7s slideright cubic-bezier(.5, 0, 0, .5) infinite;
+  animation: 7s slideright cubic-bezier(.25, 0, 0, .5) infinite;
 }
+
+.trickrobotAlt {
+  background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;  
+  animation: 7s slideright cubic-bezier(.25, 0, 0, .5) alternate infinite;
+}
+
+.trickrobotAlt2 {
+  background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;  
+  animation: 7s slideAlter cubic-bezier(.25, 0, 0, .5) infinite;
+}
+
 
 .trickrobot2 {
   background: url( "/assets/img/rr_rl_fuzz.png" ) no-repeat;  

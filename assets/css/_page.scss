@@ -1,7 +1,7 @@
 /** _page.scss
- *  sass for the page-specific elements
+ * @file sass for the page-specific elements
  *
- * Copyright(c) 2019, polarysekt, kb3c.uX
+ * @copyright Copyright(c) 2019-2020, polarysekt, kb3c.uX
  */
 
 html, body {
@@ -13,7 +13,6 @@ html, body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
-
 
 a:link {
   color: $link-color;
@@ -40,6 +39,11 @@ a:active {
   animation: 3s linkglow alternate infinite;
 }
 
+main {
+  animation: fadeIn;
+  //animation: bounceIn;
+}
+
 main, .pageContent, article, footer, .post-entry {
   padding: .25em;
   padding-top: .25em;
@@ -62,33 +66,41 @@ header {
   top: 0;
   width: 100%;
 
-  //padding: .1em;
+  // bg fallback #000011
   background:
     linear-gradient( to bottom, rgba(0,0,64,.3), 
     rgba(0,0,64,1) 2%, rgba(0,0,64,.3) 98%, 
     rgba(0,0,64,.3) ) #000011;   
 
+  // relative font size
+  font-size: 200%;
+  font-weight: bold;
   font-family: RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica, sans;
   color:#fff;
-  box-shadow: 0px .2em .2em rgba(0,0,0,.7);
+
+//  box-shadow: 0px 1px 1px rgba(0,0,255,.7);
 
   display: flex;
   align-items: flex-start;
   //justify-content: space-between;
 
-
   .siteTitle {
     margin-left: .5em;
-    font-size: 16pt;
-    font-weight: bold;
-	text-shadow: 0 0 .5em rgba(0,0,0,.7);
+    text-shadow: 0 0 .25em rgba(0,0,255,.7);
+    transition-duration: 1s;
+  }
+
+  .siteTitle:hover {
+    //-webkit-text-stroke: .1em #000;
+    text-shadow: 0 0 .5em rgba(0,0,255, 1);
+    transition-duration: 1s;
   }
 
   #menu_main {
     margin: 0;
     margin-left: .25em;
-    font-size: 16pt; 
-    font-weight: bold;
+//    font-size: 150%;
+//    font-weight: bold;
     
     a:link {
       color: #CCC;
@@ -102,6 +114,7 @@ header {
     a:hover, a:focus {
       color: #fff;
       text-shadow: .1em .1em 1em #000;
+      transition-duration: .5s;
     }
 
     input{display:none}
@@ -115,10 +128,6 @@ header {
       padding:0;
       a {
         display:block;
-        // font-weight:700;
-        // font-size:12px;
-        // line-height:32px;
-        // padding:0 15px;
       }
       li {
         position:relative;
@@ -138,7 +147,6 @@ header {
         display:block
       }
       ul {
-        font-size: 14pt;
         display:none;
         position:absolute;
         top:100%;
@@ -167,29 +175,12 @@ header {
   
     }
   }
-  // nav {
-  //   padding: .5em;
-  //   color:#777;
-
-  //   a:link, a:visited {
-  //     padding: .25em;
-  //     color: #999;
-  //     font-weight: bold;
-  //     text-decoration: none;
-  //   }
-  //   a:hover, a:focus {
-  //     color: #fff;
-  //   }
-  //}
-
 }
-
-
 
 .breadCrumbs {
   margin: 0;
   padding-left: .25em;
-  font: 14pt "Liberation Sans Narrow", "Arial Narrow", "Helvetica Narrow", "Arial", "Helvetica", sans;
+  font: 120% "Liberation Sans Narrow", "Arial Narrow", "Helvetica Narrow", "Arial", "Helvetica", sans;
   a:link {
     font-weight: bold;
   }
@@ -203,7 +194,7 @@ header {
 #menu_footer {
   display: flex;
   justify-content: center;
-  font: 12pt "Liberation Sans Narrow", "Arial Narrow", "Helvetica Narrow", "Arial", "Helvetica", sans;
+  font: 100% "Liberation Sans Narrow", "Arial Narrow", "Helvetica Narrow", "Arial", "Helvetica", sans;
   a:link {
     font-weight: bold;
   }
@@ -249,6 +240,8 @@ main {
   //  rgba(255,255,255,.8) 1%, rgba(255,255,255,.8) 99%, 
     //rgba(255,255,255,0) ); 
     ///color: $text-color;
+    border-bottom-left-radius: .25em;
+    border-bottom-right-radius: .25em;
   article {
     background: $comp-color;
     //border-radius: .5em;
@@ -285,7 +278,6 @@ main {
       margin-top: 0;
       padding-top: 0;
       font-size:$doc-font-size;
-//      font-family: "Liberation Serif", "Century Schoolbook", "Palatino Linotype", "Book Antiqua", Palatino, serif;
       color: $text-color;
 
 // HIDE the title, as we rely on the breadcrumb for that.
@@ -300,7 +292,7 @@ main {
         h1 {
           padding-top: 0;
           margin-top: 0;
-          font-size: 18pt;
+          font-size: 180%;
         }
 
         h2 {
@@ -308,7 +300,7 @@ main {
           color: $text-color;
         }
         time {
-          font: 10pt "Fira Code", "Liberation Sans", "Terminal", Monospace;
+          font: 80% "Fira Code", "Liberation Sans", "Terminal", Monospace;
           color: $stamp-color;
         }
       }
@@ -318,7 +310,7 @@ main {
     }
 
     .listing {
-      font-size: 16pt;
+      font-size: 160%;
       ul {
         list-style: none;
         padding-left: 1em;
@@ -356,7 +348,7 @@ main {
 }
 
 .social-links {
-  font: 20pt bold RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica;
+  font: 150% bold RobotoCondensed, "Arial Narrow", "Liberation Sans Narrow", Helvetica;
   
   ul {
     padding: .25em;
@@ -392,7 +384,7 @@ main {
 footer{
 
   color: #777;
-  font-size: 12pt;
+  font-size: 100%;
 
   a:link {
     color: #ccc;
@@ -418,7 +410,7 @@ footer{
     margin: auto;
     padding: .5em;    
     display: table;
-    font: 10pt "Fira Code", "Liberation Sans", "Terminal", Monospace;
+    font: 80% "Fira Code", "Liberation Sans", "Terminal", Monospace;
     color: 555;
     border-radius: .5em;  
   }
