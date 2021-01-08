@@ -23,10 +23,11 @@ Get started with a free $20. Easy money, right?
 
 [https://get.stash.com/geoffrey_gqsd64r](https://get.stash.com/geoffrey_gqsd64r)
 
-And don't forget every Thursday between 15:00 and 15:30 CST to check out the stash party stock giveaway:
+Don't forget to keep your eyes open for stash stock parties:
 
 [https://party.stash.com/](https://party.stash.com/)
 
+NOTE: there is a monthly membership charge for STASH, starting at $1.00 USD.
 
 ## Sofi
 
@@ -55,6 +56,9 @@ Using this referral for Webull, you (and I) can get a stock (or two) when you cr
 
 [https://act.webull.com/promotion/invitation/share.html?inviteCode=9jBsE8Z7zV97](https://act.webull.com/promotion/invitation/share.html?inviteCode=9jBsE8Z7zV97)
 
+Webull has an impressive toolset both for research and for setting up orders.
+
+NOTE: webull charges $0.02 USD for each SALE.
 
 ## Public
 
