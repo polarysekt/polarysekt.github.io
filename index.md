@@ -7,19 +7,12 @@ tags: [home, landing, lz, start]
 comments: false
 ---
 
-<div class="evenFlex">
-    <div class="padContent">
-        <p>"Glad you made it 'till today."</p>
-    </div>
+"Glad you made it 'till today."
 
-    <div class="nfoBox padContent">
-        <h3>Empty Box</h3>
-        You should not be thinking only in here.
-    </div>
-</div>
 
-<div class="evenFlex">
-    <div>
-        Welcome to the <s>machine</s> polarysektion.
-    </div>
-</div>
+## Welcome
+
+Everythin's coming together 'swimmingly'!
+
+[](/assets/img/robot_lr_display.png)
+
