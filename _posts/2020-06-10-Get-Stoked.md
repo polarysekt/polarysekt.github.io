@@ -6,16 +6,21 @@ tags: [stock, market, stash, robinhood, webull, sofi, public, stocktwits]
 ---
 
 ![WARNING](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/180px-Achtung.svg.png)
-IMPORTANT NOTE: Before I get started, I want to make it completely clear that I am about to describe something
+
+**IMPORTANT NOTE:** Before I get started, I want to make it completely clear that I am about to describe something
 that involves risk. Yes, actual danger. And as per my usual I smile and tell a joke, (often deeply and dryly satirical).
 So, yeah, you've been warned.
 
 
-Okay, let me just put these here.
+NOTE: Keep in mind you will have to do more work during tax season.
 
-Here are a couple of referral links that will get you easily knee-deep into day trading:
+## Getting Started
 
-## Robinhood
+### Get a broker
+
+
+
+#### Robinhood
 
 Check out RobinHood.
 
@@ -25,7 +30,7 @@ Using this referral for RobinHood, you (and I) can get a free stock when you cre
 [https://join.robinhood.com/geoffrh332](https://join.robinhood.com/geoffrh332)
 
 
-## Webull
+#### Webull
 
 Check out Webull.
 
@@ -38,7 +43,7 @@ Webull has an impressive toolset both for research and for setting up orders.
 NOTE: webull charges $0.02 USD for each SALE.
 
 
-## Stash
+#### Stash
 
 Check out Stash.
 
@@ -53,7 +58,7 @@ Don't forget to keep your eyes open for stash stock parties:
 NOTE: there is a monthly membership charge for STASH, starting at $1.00 USD.
 
 
-## Sofi
+#### Sofi
 
 Check out SoFi.
 
@@ -62,8 +67,12 @@ If you open an Active Investing account with $1000 or more you (and I) will get 
 [https://www.sofi.com/share/invest/3072192](https://www.sofi.com/share/invest/3072192)
 
 
-## Public
+#### Public
 
 Check out Public.
 
 [https://share.public.com/polar](https://share.public.com/polar)
+
+
+### Have a Plan
+

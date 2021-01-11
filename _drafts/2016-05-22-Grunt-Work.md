@@ -10,9 +10,7 @@ author: polarysekt
 <pre>Everything I know about <em>[blank]</em> I learned from Warcraft / Starcraft.</pre>
 [Circular argument about war and peace and how they must either both exist or they would both cease to exist]. And then, maybe after having read War and Peace (which I have not, maybe something about that, as well).
 
-People have many times asked me, what's with that `gw` moniker you claimed for a while a few years back? Right? I mean, they're not your initials, and it would be a little more than creepy to post an ex-girlfriend's boyfriend's initials (prior to even them even having met...), so what's the deal?
 
-Well my kitty, pretty much foreshadowing went into the development of that particular acronym. And by foreshadowing I'm leaning more towards the shadow with a bit of emphasis on the forecasting of foreknowledge, seeming incomprehensible unless you dial back the (apparently) restrictive nature of the fourth dimension.
 
 How was I to know that I could write so much into something introductive once thinking above but not reductive because of wooden forest rakes. Iron wouldn't work because time takes into account weather's wear and tearing rust aside from carbon strengthened alloy hides just wouldn't make it without an endless supply of oil, lest our allegorical tinman was quite the mega apparatus not unlike the design of Dr. Light.
 
