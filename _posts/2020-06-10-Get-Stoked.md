@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Get Stoked
+description: Stoke the stocks
 author: polarysekt
+modified: 2021-01-13
 tags: [stock, market, stash, robinhood, webull, sofi, public, stocktwits]
 ---
 
@@ -12,14 +14,11 @@ that involves risk. Yes, actual danger. And as per my usual I smile and tell a j
 So, yeah, you've been warned.
 
 
-NOTE: Keep in mind you will have to do more work during tax season.
-
-NOTE: trades are subject to fees from the SEC and fINRA
-
 ## Getting Started
 
 ### Get a broker
 
+Let's get to it. The following are brokers who have embraced the mobile trading phenomenon (with whom I also have referral accounts).
 
 
 #### Robinhood
