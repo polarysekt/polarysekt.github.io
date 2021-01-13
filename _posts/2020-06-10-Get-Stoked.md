@@ -7,11 +7,15 @@ modified: 2021-01-13
 tags: [stock, market, stash, robinhood, webull, sofi, public, stocktwits]
 ---
 
-![WARNING](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/180px-Achtung.svg.png)
+<div class="trickrobotAlt">
+ <!--<div class="sliderobot">-->
+         <img class="hiddenElement" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/180px-Achtung.svg.png" />
+ </div> 
 
 **IMPORTANT NOTE:** Before I get started, I want to make it completely clear that I am about to describe something
 that involves risk. Yes, actual danger. And as per my usual I smile and tell a joke, (often deeply and dryly satirical).
 So, yeah, you've been warned.
+
 
 
 ## Getting Started
