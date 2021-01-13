@@ -14,6 +14,8 @@ So, yeah, you've been warned.
 
 NOTE: Keep in mind you will have to do more work during tax season.
 
+NOTE: trades are subject to fees from the SEC and fINRA
+
 ## Getting Started
 
 ### Get a broker
@@ -39,9 +41,6 @@ Using this referral for Webull, you (and I) can get a stock (or two) when you cr
 [https://act.webull.com/promotion/invitation/share.html?inviteCode=9jBsE8Z7zV97](https://act.webull.com/promotion/invitation/share.html?inviteCode=9jBsE8Z7zV97)
 
 Webull has an impressive toolset both for research and for setting up orders.
-
-NOTE: webull charges $0.02 USD for each SALE.
-
 
 #### Stash
 

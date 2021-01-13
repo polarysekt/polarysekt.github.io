@@ -14,5 +14,5 @@ comments: false
 
 Everythin's coming together 'swimmingly'!
 
-[](/assets/img/robot_lr_display.png)
+[](assets/img/robot_lr_display.png)
 
