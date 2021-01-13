@@ -131,6 +131,11 @@ a, nav, header, footer, img, ul, li, p, div, span, main {
   animation: 12s left cubic-bezier(.5, 0, 0, .5) infinite;
 }
 
+.warnBot {
+  background: url( "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/180px-Achtung.svg.png" );
+  animation: 4s slideright cubic-bezier(.25, 0, 0, .5) alternate infinite;
+}
+
 .hiddenElement {
   visibility: hidden;
 }

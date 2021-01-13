@@ -7,7 +7,7 @@ modified: 2021-01-13
 tags: [stock, market, stash, robinhood, webull, sofi, public, stocktwits]
 ---
 
-<div class="trickrobotAlt">
+<div class="warnBot">
  <!--<div class="sliderobot">-->
          <img class="hiddenElement" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/180px-Achtung.svg.png" />
  </div> 
