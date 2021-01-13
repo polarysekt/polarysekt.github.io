@@ -13,11 +13,13 @@ image:
 
 *See Also:* [FLOPS](/blog/FLOPS)
 
+Collection point for tentative FLOPS backronyms.
+
 ## Background
 
 **GOALS:**
 
-* 366+ unique backronyms
+* 366+ unique backronyms ( 1 for each day )
 * Several Recursive Backronyms
 * Custom Server Side Component/Plugin
 * FLOPS Backronym Repository
@@ -31,6 +33,7 @@ For now, these will be a running list here, as well as any ideas that might beco
 
 ## Slogan List
 
+1. Fast, Light; or Particularly Slow?
 1. Frantic Language Obfuscates Practical Sentences
 1. Future Leverage Obtained Previously, Squandered
 1. Frequently Lamented Overage Percentages Stick
@@ -45,7 +48,6 @@ For now, these will be a running list here, as well as any ideas that might beco
 1. Finally Leverage Online Poker Strategies
 1. Frothy Lagered Opinions People Stated
 1. Fire Light Opens Pathway Signals
-1. Fast, Light; or Particularly Slow?
 1. Five Little Orphans Producing Sound
 1. First, Let's Orient Per Street
 1. Frantic Lunacy over Purposeful Spite
