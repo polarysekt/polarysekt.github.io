@@ -14,5 +14,5 @@ comments: false
 
 Everythin's coming together 'swimmingly'!
 
-<img src="/assets/img/robot_lr_display.png" />
+<img width="80%" height="80%" src="/assets/img/robot_lr_display.png" />
 

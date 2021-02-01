@@ -33,15 +33,6 @@ This is why we stress that you conduct extensive due diligence as well as seek t
 Let's get to it. The following are brokers who have embraced the mobile trading phenomenon (and they're brokers with whom I also have referral accounts).
 
 
-#### Robinhood
-
-Check out RobinHood.
-
-Using this referral for RobinHood, you (and I) can get a free stock when you create an account:
-
-
-[https://join.robinhood.com/geoffrh332](https://join.robinhood.com/geoffrh332)
-
 
 #### Webull
 
@@ -52,6 +43,17 @@ Using this referral for Webull, you (and I) can get a stock (or two) when you cr
 [https://act.webull.com/promotion/invitation/share.html?inviteCode=9jBsE8Z7zV97](https://act.webull.com/promotion/invitation/share.html?inviteCode=9jBsE8Z7zV97)
 
 Webull has an impressive toolset both for research and for setting up orders.
+
+
+#### Robinhood
+
+Check out RobinHood.
+
+Using this referral for RobinHood, you (and I) can get a free stock when you create an account:
+
+
+[https://join.robinhood.com/geoffrh332](https://join.robinhood.com/geoffrh332)
+
 
 #### Stash
 
@@ -66,6 +68,7 @@ Don't forget to keep your eyes open for stash stock parties:
 [https://party.stash.com/](https://party.stash.com/)
 
 NOTE: there is a monthly membership charge for STASH, starting at $1.00 USD.
+
 
 
 #### Sofi
