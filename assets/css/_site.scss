@@ -6,6 +6,11 @@ a, nav, header, footer, img, ul, li, p, div, span, main {
   animation: .5s sifader0;
 }
 
+.code {
+  background: #333;
+  color: #ccc;
+}
+
 .aroundFlex {
   display: flex;
   justify-content: space-around;
