@@ -10,3 +10,5 @@ permalink: /articles/pinned/
 
 Empty.
 
+We aren't pinning articles yet - we're still pruning the already written ones.
+

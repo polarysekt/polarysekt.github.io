@@ -12,19 +12,18 @@ tags: [stock, market, stash, robinhood, webull, sofi, public, stocktwits]
          <img class="hiddenElement" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Achtung.svg/180px-Achtung.svg.png" />
  </div> 
 
-**IMPORTANT NOTE:** Yes, "caveat emptor". Before I get started, I want to make it completely clear that I am about to describe something
+**IMPORTANT NOTE:** 
+Yes, "caveat emptor". Before I get started, I want to make it completely clear that I am about to describe something
 that involves risk. And as per my usual I smile and tell a joke, (often dry and satirical, [sortof like my smile]).
 So, yeah, you've been warned.
 
 **ANOTHER IMPORTANT NOTE:**
-```
 NOT AN INVESTMENT ADVISOR. The Company and the writer are not registered or licensed by any governing body in any jurisdiction to give investing advice or provide investment recommendation. ALWAYS DO YOUR OWN RESEARCH and consult with a licensed investment professional before making an investment. This communication should not be used as a basis for making any investment.
 
 RISK OF INVESTING. Investing is inherently risky. Don't trade with money you can't afford to lose. This is neither a solicitation nor an offer to Buy/Sell securities. No representation is being made that any stock acquisition will or is likely to achieve profits.
 
 
 This is why we stress that you conduct extensive due diligence as well as seek the advice of your financial advisor or a registered broker-dealer before investing in any securities.
-```
 
 ## Getting Started
 
