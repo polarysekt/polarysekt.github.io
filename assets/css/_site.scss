@@ -29,6 +29,12 @@ a, nav, header, footer, img, ul, li, p, div, span, main {
   flex-direction: row;
 }
 
+.startFlex {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
 .widthConstrain {
   margin: 0 auto;
   padding: .5em;

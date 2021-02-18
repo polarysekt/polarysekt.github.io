@@ -99,7 +99,7 @@ header {
 
   #menu_main {
     margin: 0;
-    padding-left: .25em;
+    padding-right: .25em;
 //    font-size: 150%;
 //    font-weight: bold;
     
@@ -133,7 +133,7 @@ header {
         position:relative;
         float:left;
         margin:0;
-        padding:0
+        padding:0;
       }
       li:hover
       {
@@ -150,7 +150,7 @@ header {
         display:none;
         position:absolute;
         top:100%;
-        left:0;
+        left:-8em;
         background:
         linear-gradient( to bottom, rgba(0,0,96,.3), 
         rgba(0,0,96,1) 2%, rgba(0,0,96,.3) 98%, 
@@ -169,7 +169,8 @@ header {
         ul
         {
           top:0;
-          left:100%;
+          //left:100%;
+          left: -9em;
         }
       }
   
