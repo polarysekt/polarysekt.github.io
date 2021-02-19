@@ -8,7 +8,7 @@
 # 'bundle exec jekyll serve'.
 # If you change this file, please restart the server process.
 
-title:            "polarysektion"
+title:            "polarysektion℠"
 description:      "so close you can almost feel it"
 author:           polarysekt
 baseurl:          "/"       # base url of this site
@@ -23,11 +23,9 @@ owner:
 
 github_username:    polarysekt
 
-
 timezone:           America/Chicago
 future:             false           # publish future dated posts --  true, false (default)
-
-
+    s
 # Syntax Highlighting
 highlighter:        rouge
 markdown:           kramdown
