@@ -4,5 +4,8 @@ CTOR,Constructor
 DTOR,Destructor
 DEV,"Developer/Development (based on context)"
 pentest,"Penetration Test"
+pleeb,"First Year Undergrad"
+plebe,"see: pleeb"
+preppy,"College Preparatory Student"
 RunCom,"Run Command"
 strat,Strategy

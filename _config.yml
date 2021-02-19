@@ -23,9 +23,11 @@ owner:
 
 github_username:    polarysekt
 
+
 timezone:           America/Chicago
 future:             false           # publish future dated posts --  true, false (default)
-    s
+
+
 # Syntax Highlighting
 highlighter:        rouge
 markdown:           kramdown
