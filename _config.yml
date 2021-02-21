@@ -71,9 +71,9 @@ collections:
   reference:
     output: true
     permalink: /reference/:name
-#  pinned:
-#    output: true
-#    permalink: /article/:collection/:name
+  pinned:
+    output: true
+    permalink: /article/:collection/:name
 
 # What to include/exclude from parsing
 include:
