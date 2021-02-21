@@ -36,7 +36,7 @@ tags: [install, linux, tar, gz, VSCode, VSCodium, codium]
 
 When successful, `sha256sum` should emit: 
 ``` bash
-VSCodium-linux-x64-1.53.2.tar.gz: OK`
+VSCodium-linux-x64-1.53.2.tar.gz: OK
 ```
 
 Possible errors may occur if files are not in the same folder, or the command is run from a different working directory:
@@ -74,15 +74,17 @@ sha256sum: WARNING: 1 listed file could not be read
 
 ## Extract the .tar into folder
 * NOTE: expand [version] to specific version
-* We assume the `.tar` is compressed (`.gz`), so we use the `c` option.
 * The `x` option specifies extraction
+* The `p` option specifies to preserve the attributes of the extracted files.
+* The `v` option specifies verbosity, to show the files extracted.
+* The `f` option is specified to tell tar we're giving it a file argument. Because this takes an Argument Option, this is entered last:
 * The 
 ``` bash
-~/Vendor/vscodium/VSCodium[version] $ tar -xpcv ../../Downloads/VSCodium[version].tar.gz
+~/Vendor/vscodium/VSCodium[version] $ tar -xpvf ../../../Downloads/VSCodium[version].tar.gz
 ```
 * In this example, we use `VSCodium-linux-x64-1.53.2.tar.gz`
 ``` bash
-~/Vendor/vscodium/VSCodium-linux-x64-1.53.2 $ tar -xpcv ../../Downloads/VSCodium-linux-x64-1.53.2.tar.gz
+~/Vendor/vscodium/VSCodium-linux-x64-1.53.2 $ tar -xpvf ../../../Downloads/VSCodium-linux-x64-1.53.2.tar.gz
 ```
 
 ## Create symlink to extracted folder in `Vendor/vscodium`
@@ -107,15 +109,15 @@ sha256sum: WARNING: 1 listed file could not be read
 ``` bash
 ~/Vendor/vscodium/VSCodium[version] $ su
 ```
-* Create the symlink in `/usr/local/bin`:
+* Create the symlink in `/usr/local/bin`. NOTE: the full path should be used!
 ``` bash
-~/Vendor/vscodium/VSCodium-linux-x64-1.53.2 # ln -s ../vscodium/ /usr/local/bin/vscodium
+~/Vendor/vscodium/VSCodium-linux-x64-1.53.2 # ln -s /home/[user]/Vendor/vscodium/vscodium/bin/codium /usr/local/bin/vscodium
 ```
 * In this example, our user can sudo, and a previous link to another location existed:
 ``` bash
 ~/Vendor/vscodium/VSCodium-linux-x64-1.53.2 # sudo su
 ~/Vendor/vscodium/VSCodium-linux-x64-1.53.2 # rm /usr/local/bin/vscodium
-~/Vendor/vscodium/VSCodium-linux-x64-1.53.2 # ln -s ../vscodium /usr/local/bin/vscodium
+~/Vendor/vscodium/VSCodium-linux-x64-1.53.2 # ln -s /home/[redacted]/Vendor/vscodium/vscodium/bin/codium /usr/local/bin/vscodium
 ```
 * NOTE: we want to exit our root shell ASAP!
 ``` bash
