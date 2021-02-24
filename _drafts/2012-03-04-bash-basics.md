@@ -35,4 +35,4 @@ $ cd ~/[co]
 Example 2 (Using `/home/`):
 ````
 $ cd
-````
+```` 
