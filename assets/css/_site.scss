@@ -6,6 +6,10 @@ a, nav, header, footer, img, ul, li, p, div, span, main {
   animation: .5s sifader0;
 }
 
+.headerbehind {
+  z-index: 1;
+}
+
 pre.highlight,pre {
   background: #333;
   color: #ccc;

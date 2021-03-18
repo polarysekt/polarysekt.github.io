@@ -8,4 +8,4 @@ comments: none
 permalink: /articles/categories/
 ---
 
-Once we bring the content back, this will be populated.
+Eventually, this will be populated.

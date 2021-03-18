@@ -8,9 +8,13 @@ layout: compress
     <body>
         <div class="bodycontain">
             {% include header.html %}
+            <!--
+            <img class="headerbehind" src="{{ page.banner }}" alt="usage patterns" />
+            -->
             <main>
                 <a name="top"></a>
                 {% include breadcrumb.html %}
+
                 {{ content }}
                 {% include menu_footer.html %}
             </main>

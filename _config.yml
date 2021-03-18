@@ -68,6 +68,9 @@ permalink: /articles/:title
 #collections_dir:
 
 collections:
+  characters:
+    output: true
+    permalink: /character/:name
   reference:
     output: true
     permalink: /reference/:name

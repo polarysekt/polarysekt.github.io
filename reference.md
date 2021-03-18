@@ -8,6 +8,7 @@ comments: none
 permalink: /reference/
 ---
 
+Fairly limited and simple aggregation, really.
 
 * [glossary](glossary)
 
