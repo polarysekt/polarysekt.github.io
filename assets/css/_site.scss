@@ -50,6 +50,11 @@ pre.highlight,pre {
   justify-content: space-around;
 }
 
+.alignRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .alignMiddle {
   vertical-align: middle;
 }

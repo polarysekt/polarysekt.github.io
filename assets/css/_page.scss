@@ -253,8 +253,13 @@ main {
     color:$text-color;
     //box-shadow: 2px 2px 1em #000;
     font-size: $doc-font-size;
+    
+    .page-title {
+      color: $title-color;
+    }
 
     h1 {
+      color: $title-color;
       font-weight: bold;
       font-size: 24pt;
     }

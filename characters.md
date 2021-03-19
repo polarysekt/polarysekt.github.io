@@ -5,7 +5,7 @@ subtitle: enumeration of creations
 description: the various characters documented as encountered
 tags: [character]
 comments: none
-permalink: /character/
+permalink: /reference/characters/
 ---
 
 # Characters

@@ -5,30 +5,28 @@ subtitle: proofs of concept
 description: a few easy freebies
 tags: [portfolio]
 comments: none
-permalink: /portfolio/
+permalink: /about/portfolio/
 ---
 
 # Portfolio
 
+<img src="/assets/img/pskt_logo_0.png" />
+
 ## Flops
 
-<img width="60%" height="60%" src="/assets/img/flops-draft-logo-2-400x152.png" />
+<img width="48px" height="48px" src="/assets/img/gallery/flops/apple-touch-icon-144x144-precomposed.png" />
 
-* First Iteration: *Photo Gallery Coming Soon*
-
-* Second Iteration: [https://webflops1.herokuapp.com](https://webflops1.herokuapp.com)
-
-* Third Iteration: *Coming Soon*
+[FLOPS](flops) :: Fast Lightweight Online Poker Simulation
 
 ## libGH
 
-<img width="60%" height="60%" src="/assets/img/libgh300px.png" />
+<img width="48px" height="48px" src="/assets/img/gallery/libgh/gh4.png" />
 
-Multiplatform Graphical User Interface Native Abstraction in C/C++.
+[libGH](libgh) :: Multiplatform Graphical User Interface Native Abstraction
 
-* Project Page: [https://github.com/polarysekt/libGH](https://github.com/polarysekt/libGH)
+## DoW
 
-## F-Man
+<img width="48px" height="48px" src="/assets/img/gallery/dow/rr_rl_head.png" />
 
-*Coming Soon*
+[DoW](dow) :: Multiplatform Mobile Platformer
 
