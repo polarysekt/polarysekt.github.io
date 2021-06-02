@@ -13,11 +13,15 @@ comments: false
 
 ## Welcome
 
-Still underwater, but at least we've got a bubble.
+If the GIANT hamburger menu is a bit much, then maybe you need a sit-down lunch - you can scroll down to the footer, wherein we have more clickies. No, that's not a thing, I just made that up.
 
-Mostly not borken. We're porkin with premium squigglers.
+Still underwater, but portable, and we've got a bubble with a kevlar-like surface tension.
 
-<!-- 
+In any case, we're mostly not borken, seein' as we're porkin with premium squigglers
+
+- (ain't that right, morgen?)
+
+<!--
 ## Upcoming
 
 * Manual Page Resources
