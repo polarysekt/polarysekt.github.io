@@ -74,6 +74,9 @@ collections:
   reference:
     output: true
     permalink: /reference/:name
+  vendor:
+    output: true
+    permalink: /vendor/:name
   pinned:
     output: true
     permalink: /article/:collection/:name
