@@ -8,9 +8,8 @@ comments: none
 permalink: /reference/templategarden/
 ---
 
-Not as cool as Frank's garden, yet, but we're getting there.
+Not as cool as [Frank's](linkTBD) garden, yet, but we're getting there.
 
-<!-- By the way, check out Frank's Garden: -->
 
 Coming Up:
 

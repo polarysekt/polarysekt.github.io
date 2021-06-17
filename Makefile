@@ -3,6 +3,9 @@
 all:
 	@echo -e "USAGE:\tmake [COMMAND]\n\n\tCOMMAND:\n\n\t\t_get_bundler\n\n\t\t_update_bundler\n\n\t\t_get_gems\n\n\t\t_clean\n\n\t\t_serve_simple\n\n\t\t_serve_livereload\n\n"
 
+install:
+	@echo ">>MAKE:: INSTALL"
+	__init_bundler
 
 _get_bundler:
 	@echo "GET 'bundler' gem..."
@@ -11,7 +14,6 @@ _get_bundler:
 _update_bundler:
 	@echo "UPDATE 'bundler'..."
 	bundle update --bundler
-
 __init_bundler:
 	@echo "INIT bundler..."
 	bundle init

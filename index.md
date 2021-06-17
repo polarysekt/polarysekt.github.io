@@ -19,7 +19,18 @@ Still underwater, but portable, and we've got a bubble with a kevlar-like surfac
 
 In any case, we're mostly not borken, seein' as we're porkin with premium squigglers
 
+Quote of the week |
+==================|
+"There's an old story about the person who wished his computer were as easy to use as his telephone. | 
+That wish has come true, since I no longer know how to use my telephone." |
+`*- B. Stroustrup |
+
+
 - (ain't that right, morgen?)
+
+
+
+
 
 <!--
 ## Upcoming
