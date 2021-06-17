@@ -1,11 +1,13 @@
 _site
 vendor
+_vendor
 
 .sass-cache
 .jekyll-metadata
 .jekyll-cache
 .directory
 *~
+*.swp
 build
 node_modules
 

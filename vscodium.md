@@ -8,6 +8,8 @@ comments: none
 permalink: /vendor/vscodium/
 ---
 
-# Source Link
+# vscodium
+
+## Install Link
 
 [https://vscodium.com/](https://vscodium.com/)

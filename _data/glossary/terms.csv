@@ -2,6 +2,7 @@ term,meaning
 circumlocution,"unoptimal overuse of mostly unnecessary words to express an idea"
 combination,"a selection of items wherein sequence or order does not make them distinct.<br/>A <i>k-combination</i> is a subset of <code>k</code> elements from a set with <code>n</code> elements, denoted <code>C(n,k)</code>.<br/>If <code>k > n</code>, then <code>C(n,k) = 0</code>, otherwise <code>C(n,k) = (n!)/(k!(n-k)!)</code>."
 jargon,"technical terminology or characteristic idiom of a group"
+jektive,"whatever an adjective is for..."
 okkusenman,"<i>Japanese</i> - 110 Million"
 "omoide wa okkusenman!","<i>Japanese</i> - 思い出はおっくせんまん！ - 110 Million Memories!"
 permutation,"a selection of items in a particular sequence or order.<br/>A set with <code>n</code> elements has <code>n!</code> permutations.<br/>A <i>k-permutation</i> is a subset of ordered arrangements of <code>k</code> elements from a set containing <code>n</code> elements, denoted <code>P(n,k)</code>.<br/>If <code>k > n</code>, then <code>P(n,k) = 0</code>, otherwise <code>P(n,k) = (n!)/((n-k)!)</code>.<br/>When <code>k = n</code>, <code>P(n,k) = n!</code>, as <code>(n-k) = 0</code>, <code>0! = 1</code>, and <code>(n!)/1 = n!</code>."
@@ -12,3 +13,4 @@ subpixel,"any of the units that make up a pixel. Commonly Red, Green, and Blue c
 vernacular,"an ordinary, often informal, usually spoken, expression"
 yatta,"<i>Japanese</i> - やった - Did it / It is done"
 yattenai,"<i>Japanese</i> - Did not do it / It is not done"
+

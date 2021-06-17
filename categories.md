@@ -8,4 +8,4 @@ comments: none
 permalink: /articles/categories/
 ---
 
-Eventually, this will be populated.
+Eventually, this will be populated, once categories are determined, and finalized.

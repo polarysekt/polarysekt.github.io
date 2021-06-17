@@ -3,6 +3,7 @@ README
 
 # Getting Started
 
+NOTE: Having an updated ruby system-wide will help quite a bit.
 
 ## Clone
 
@@ -18,18 +19,21 @@ $ git clone https://[user]@github.com/polarysekt/polarysekt.github.io
 
 where [user] is your GitHub username.
 
+NOTE: For preview-only, repository can be cloned without a username.
+
 
 ### SSH
 
 todo
 
-### GIT
-
-todo
 
 ## Local Live Preview
 
 To preview the BLOG locally, you will need a few prerequisites:
+
+### Ruby
+
+You will want an updated version of ruby installed system-wide. Older 2.x versions have been known to bork.
 
 ### Ruby Gems
 
@@ -69,7 +73,7 @@ $ make _update_bundler
 ### Install required gems
 
 ```sh
-$ make _get_gems
+$ make install
 ```
 
 If you run into difficulties, such as a particular package not being found, try:
@@ -78,7 +82,15 @@ If you run into difficulties, such as a particular package not being found, try:
 $ rm Gemfile.lock
 ```
 
-and retry
+then clean:
+
+```sh
+
+$ make clean
+
+```
+
+and retry:
 
 ```sh
 $ make _get_gems
@@ -88,10 +100,10 @@ $ make _get_gems
 Now you should be able to run the server.
 
 
-### Local LiveReload Server
+### Local LiveReload Server (default)
 
 ```
-$ make _serve_livereload
+$ make serve
 ```
 
 ## Using VSCODE
@@ -114,3 +126,21 @@ Install missing gem executables with `bundle install`
 make: *** [Makefile:44: _serve_livereload] Error 127
 ```
 
+FIX: force install jekyll
+
+```sh
+make install _get_jekyll
+```
+
+## ruby version out of date
+
+Older ruby versions may fail to install some gems (i.e. ruby 2.5)
+
+```
+An error occurred while installing http_parser.rb (0.6.0), and Bundler cannot continue.
+Make sure that `gem install http_parser.rb -v '0.6.0' --source 'https://rubygems.org/'` succeeds before bundling.
+```
+
+FIX: update ruby system-wide
+
+```sh

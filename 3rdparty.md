@@ -5,7 +5,7 @@ subtitle: 3rd Party
 description: libs n such
 tags: [vendor 3rdparty]
 comments: none
-permalink: /vendor/
+permalink: /3rdparty/
 ---
 
 # Vendor (3rdParty)
@@ -16,7 +16,7 @@ Some of the more important dependencies.
 
 * [VSCodium] (vendor/vscodium)
 
-* Firefox
+* [Firefox] (https://wiki.debian.org/Firefox)
 
 * [Signal] (vendor/signal)
 
