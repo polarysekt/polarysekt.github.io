@@ -10,7 +10,7 @@ permalink: /about/portfolio/flops/flops-i1/
 
 # FLOPS - First Iteration
 
-System Application in `C`.
+Systems Application -- Client written in `C`.
 
 ## Dependencies:
 
