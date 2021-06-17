@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: glossary
 subtitle: A straight list of terms
 description: A relatively terse, almost unmanageable list
@@ -8,7 +8,6 @@ comments: false
 permalink: /reference/glossary/
 ---
 
-# Glossary
 
 The following [jargon](#jargon) is used frequently (and without warning), so it should be in the [vernacular](#vernacular)...
 

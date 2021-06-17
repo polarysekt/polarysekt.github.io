@@ -8,7 +8,7 @@ comments: none
 permalink: /reference/characters/
 ---
 
-# Characters
+## Protagonists
 
 <!-- <img width="80%" height="80%" src="/assets/img/avatar-0.png" /> -->
 

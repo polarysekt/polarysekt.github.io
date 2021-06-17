@@ -8,4 +8,6 @@ comments: none
 permalink: /articles/categories/
 ---
 
+## Coming Soon
+
 Eventually, this will be populated, once categories are determined, and finalized.

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: pinned
 subtitle: important enough to keep here
 description: ideally, these appear near the top of the listings
