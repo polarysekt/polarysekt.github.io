@@ -45,5 +45,5 @@ That wish has come true, since I no longer know how to use my telephone."
 -->
 
 
-<img src="/assets/img/polarysekt_logo_0.png" />
+<img src="/assets/img/pskt_logo_0.png" />
 
