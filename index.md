@@ -19,10 +19,11 @@ Still underwater, but portable, and we've got a bubble with a kevlar-like surfac
 
 In any case, we're mostly not borken, seein' as we're porkin with `premium` squigglers -- in the VIP (cause we luxe like that...) [ain't that right, morgen?]
 
-#### Quote of the week |
-"There's an old story about the person who wished his computer were as easy to use as his telephone. | 
-That wish has come true, since I no longer know how to use my telephone." |
-`*- B. Stroustrup |
+#### Quote of the week
+"There's an old story about the person who wished his computer were as easy to use as his telephone.
+That wish has come true, since I no longer know how to use my telephone."
+
+`*- B. Stroustrup
 
 
 
@@ -43,5 +44,6 @@ That wish has come true, since I no longer know how to use my telephone." |
 * Glossary Updates
 -->
 
-<img width="80%" height="80%" src="/assets/img/robot_lr_display.png" />
+
+<img src="/assets/img/polarysekt_logo_0.png" />
 
