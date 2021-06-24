@@ -9,7 +9,7 @@
 # If you change this file, please restart the server process.
 
 title:            "polarysektion℠"
-description:      "so close you can almost *taste* it"
+description:      "getting so close you can almost *taste* it"
 author:           polarysekt
 baseurl:          "/"       # base url of this site
 url:              ""        # the base hostname & protocol, e.g. http://polarysekt.github.io
