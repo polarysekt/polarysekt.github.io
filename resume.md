@@ -5,7 +5,7 @@ subtitle: professional resume
 description: after a pause, resume
 tags: [about,resume]
 comments: none
-permalink: /about/resume
+permalink: /about/resume/
 ---
 
 # Resume
