@@ -10,7 +10,7 @@ comments: false
 
 ## Welcome
 
-"We're glad you made it 'till today."
+"We're glad you made it 'till today!"
 
 
 <!--
