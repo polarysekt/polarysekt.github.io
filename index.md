@@ -28,3 +28,5 @@ comments: false
 
 <img src="/assets/img/pskt_logo_0.png" />
 
+
+<img width="80%" height="80%" src="/assets/img/robot_lr_display.png" />
