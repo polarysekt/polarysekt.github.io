@@ -4,8 +4,10 @@
  * @copyright Copyright(c) 2019-2020, polarysekt, kb3c.uX
  */
 
+/** url("/assets/img/bg/tile/blueTile(lossy).jpg") */
+
 html, body {
-  background: url("/assets/img/bg/tile/blueTile(lossy).jpg") $body-color;
+  background: $body-color;
   color: $text-color;
 }
 
