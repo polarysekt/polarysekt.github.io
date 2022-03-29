@@ -2,7 +2,7 @@
 layout: article
 title: resume
 subtitle: professional resume
-description: after a pause, resume
+description: what else can I say?
 tags: [about,resume]
 comments: none
 permalink: /about/resume/
@@ -10,8 +10,4 @@ permalink: /about/resume/
 
 # Resume
 
-*Coming Soon*
-
-For now, visit [Resume @ indeed.com](https://my.indeed.com/p/geoffreyh-r2gsz97)
-
-<!-- Currently, Download PDF [here]() -->
+Available upon request.
